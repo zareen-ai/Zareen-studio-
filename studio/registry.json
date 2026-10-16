@@ -1,0 +1,135 @@
+{
+  "schema_version": 2,
+  "registry_id": "editing-monarch-studio",
+  "title": "Editing Monarch Studio",
+  "normalized_at": "2026-10-11T04:55:43+05:00",
+  "authority_policy": "docs/RECONCILIATION.md",
+  "style_registry": "styles/registry.json",
+  "active_workflow": "workflows/current/ACTIVE_TASK.json",
+  "workflows": [
+    {
+      "code": "WF-01",
+      "style_id": "monarch-stickman-animation",
+      "slug": "wf01",
+      "name": "Monarch Stickman Animation",
+      "path": "styles/monarch-stickman-animation",
+      "trigger": "SHADEGO <topic>",
+      "state": "PARKED",
+      "reconciliation": "aligned",
+      "reproducibility": "R1",
+      "current_delivery": {
+        "title": "TUMHARI RESERVED SEAT · WF-01",
+        "task_id": "EMS-20261011-002",
+        "drive_id": "1h9DRRnwNDAC9PXb8rqIf5_oLFdSaTYuW",
+        "source_drive_id": "1b_BpVLkTBOlPkUvgvIWPbcQzmV01FZTh",
+        "md5": "ef97f954dd6b4e73675985743deb225c",
+        "sha256": "141258f25e0dad13c68d2e97fc96fd11f3cd215a7d89559723349b4211a3d69b",
+        "duration_seconds": 74.0,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "gates": "21/21",
+        "freshness": "18/18"
+      },
+      "authorities": {
+        "drive_folder_id": "1Qum7OkUZpRMSt3SMJ6q3WumUUwzezTw-",
+        "notion_project_id": "3f3807e1-e916-819e-aa60-fc633bf61478",
+        "notion_registry_row_id": "3f4807e1-e916-8140-aee5-e1f13ab5b6d7",
+        "linear_project_id": "4d053022-acab-4836-8f13-5ccb7e043c17",
+        "linear_resume_issue": "MON-34",
+        "linear_trigger_issue": "MON-56",
+        "google_doc_hub_id": "1g2WLpd-S9LmBur4nbz9mHc4AkOCCl54ZUpHNAzHuW5g",
+        "google_doc_trigger_id": "1EdP_cvptM1GG8dDg_6ld_yjnkc1Ko9-kHtXy3BYXc2A"
+      }
+    },
+    {
+      "code": "WF-03",
+      "style_id": "monarch-noir-film",
+      "slug": "wf03",
+      "name": "Monarch Noir Film",
+      "path": "styles/monarch-noir-film",
+      "trigger": "NOIRGO <topic>",
+      "state": "ACTIVE_WITH_DRIFT",
+      "reconciliation": "required_before_next_numbered_film",
+      "reproducibility": "mixed_R1_R2_R3",
+      "current_fully_sourced_delivery": {
+        "title": "TUMHARI RESERVED SEAT · WF-03",
+        "film_number": null,
+        "numbering": "intentionally unassigned",
+        "task_id": "EMS-20261011-002",
+        "drive_id": "1LNsQOl2dvRNje720ylGfS0ITKL6GtI_N",
+        "source_drive_id": "1jDgmzsIt2CWXxWR7zotPRd1Lmi6WP2AO",
+        "md5": "4ba29154079a936d74a2599af51f433f",
+        "sha256": "738a6aaa177595384f2070f1e16a38b5412ff10514732ba5a60f420b7395dc2f",
+        "duration_seconds": 74.0,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "gates": "21/21",
+        "freshness": "18/18"
+      },
+      "drift": [
+        "4:00 AM v2 and AB KARO ABHI v1 both claim Film #3 with different format and evidence depth.",
+        "Workflow-local brain history and the newer studio brain have different generations.",
+        "The 2026-10-11 unnumbered delivery is intentionally outside the numbered-film sequence until the two Film #3 claims are reconciled."
+      ],
+      "authorities": {
+        "drive_folder_id": "11c194r1f_IMIo5yOmT-j80Iu-sZWP3KP",
+        "notion_project_id": "3f4807e1-e916-8135-b919-ee36b0e39165",
+        "notion_registry_row_id": "3f4807e1-e916-810e-a035-fce9f7cc8f3f",
+        "linear_project_id": "e173192b-b932-4801-ac4d-dcd7445237b8",
+        "linear_resume_issue": "MON-57",
+        "google_doc_hub_id": "1sGGzPHXXars1-pJvB3ugnbnLuSuQ5EpE-obVidTj6rM"
+      }
+    },
+    {
+      "style_id": "premium-motion-editing",
+      "name": "Premium Motion Editing",
+      "path": "styles/premium-motion-editing",
+      "trigger": "MOTIONGO <topic or reference>",
+      "knowledge_index": "styles/premium-motion-editing/knowledge/INDEX.md",
+      "code": "WF-05",
+      "slug": "wf05",
+      "state": "READY_WITH_USER_POLICY",
+      "reconciliation": "latest_20261015_feedback_applied",
+      "reproducibility": "source-backed V5/V6 references; reusable approved clean profile",
+      "caption_policy": "No V6 lower caption pills or word-highlight strip",
+      "authorities": {
+        "drive_folder_id": "1C7vAECkURqySJDgpJ_YunUtyOWh8Zuri",
+        "notion_project_id": "3f9807e1-e916-819b-9c53-e21326dd0f26",
+        "linear_project_id": "104ec829-e3db-4796-b12c-4fd062287ff3",
+        "linear_resume_issue": "MON-67",
+        "links_manifest": "styles/premium-motion-editing/data/links.json",
+        "google_doc_hub_id": "1yg7VK9S0luG4bPHQxWGtPIKxUcKcOSI6n7JnrCxPnLU",
+        "notion_registry_row_id": "3f9807e1-e916-81bd-8408-cb4537dacb31",
+        "source_package_drive_id": "1ue4xkG697LP4yH66GCJYPtMr0D17pPkd",
+        "release_receipt_drive_id": "1IP1ykbtg6Hvk3SqiZGkF_uRsj8v9vRje"
+      }
+    }
+  ],
+  "characters": [
+    {
+      "slug": "monarch",
+      "name": "Monarch",
+      "path": "characters/monarch",
+      "state": "LOCKED",
+      "registry": "characters/monarch/character.json"
+    }
+  ],
+  "vendor": [
+    {
+      "name": "EffectCraft",
+      "path": "vendor/effectcraft",
+      "url": "https://github.com/storytold/effectcraft.git",
+      "commit": "f8b2552d1c4fd1ae5051dae3786719dc5bdb3ff8",
+      "role": "optional_future_tooling_adapter"
+    },
+    {
+      "name": "awesome-opus5-5-videos",
+      "path": "vendor/awesome-opus5-5-videos",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos.git",
+      "commit": "756290289742535eb0ac3817548f152e9759cc70",
+      "role": "pinned_research_index"
+    }
+  ]
+}

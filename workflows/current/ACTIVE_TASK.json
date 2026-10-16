@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "task_id": "NONE",
+  "status": "idle",
+  "title": "No active task",
+  "style_id": null,
+  "goal": "",
+  "acceptance_criteria": [],
+  "started_at": null,
+  "updated_at": "2026-10-14T21:54:45Z",
+  "checkpoint_sequence": 0,
+  "event_sequence": 0,
+  "journal_head": null,
+  "last_checkpoint": null,
+  "last_checkpoint_path": null,
+  "next_action": "Start the next task with continuity.py init.",
+  "running_processes": [],
+  "remote_sync": {
+    "github": "not_configured",
+    "google_docs": "not_configured",
+    "google_drive": "not_configured",
+    "linear": "not_configured",
+    "notion": "not_configured"
+  },
+  "completed_task": "EMS-20261015-WF05-FOUNDATION",
+  "completion_checkpoint": "0006-20261014T215445Z"
+}
