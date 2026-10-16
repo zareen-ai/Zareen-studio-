@@ -1,0 +1,7 @@
+shot_id,start,end,argument_beat,visual,primary_subject,independent_motion,type_words,transition,source_asset
+01,0.0,6.5,Equal choice opens opportunity,The host opens a violet-gold door to sunrise,user-approved veiled host,door swing light ribbons particles,WOMEN EMPOWERMENT / HAQ + CHOICE,feathered_cut,media/hero-reference.png
+02,6.5,13.0,Education enables choice,Pages rise into illuminated steps,user-approved veiled host,book pages and step lights move,TALEEM / CHOICE,depth_push,media/education-scene.png
+03,13.0,20.5,Voice and agency,Host speaks in a public forum,user-approved veiled host,sound rings pulse waveform travels,APNI AAWAAZ / VOICE + AGENCY,diagonal_whip,media/voice-work-scene.png
+04,20.5,27.5,Fair opportunity and respect,Host leads a collaborative design table,user-approved veiled host plus women colleagues,light paths and equal progress marks,EQUAL / MAUQA,feathered_cut,media/opportunity-scene.png
+05,27.5,34.5,Shared community progress,Host walks forward on a glowing bridge,user-approved veiled host plus community,bridge pulses and city lights sequence,SAB AAGE,depth_push,media/community-scene.png
+06,34.5,40.0,Every girl deserves her own path,Exact source-photo eye crop anchors the final hold,user-provided host portrait,particles and light settle,HAR LARKI / APNI RAAH?,feathered_cut,media/final-hero-exact-eyes.png

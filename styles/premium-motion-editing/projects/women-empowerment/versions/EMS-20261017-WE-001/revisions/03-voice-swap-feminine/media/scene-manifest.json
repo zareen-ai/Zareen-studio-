@@ -1,0 +1,62 @@
+[
+  {
+    "path": "scene01-door.mp4",
+    "source_image": "hero-reference.png",
+    "duration": 6.5,
+    "frames": 195,
+    "size_bytes": 1110680,
+    "sha256": "b8dbed656889fcca569447098b3b4dd1f46354317f0f10a1cdf721744a19fae6",
+    "independent_layers": "door",
+    "render_seconds": 15.02
+  },
+  {
+    "path": "scene02-education.mp4",
+    "source_image": "education-scene.png",
+    "duration": 6.5,
+    "frames": 195,
+    "size_bytes": 866072,
+    "sha256": "4761462747bbd2810c6562bc7de6dcd0ad2f04bd6163b1b15a347fe8851e575b",
+    "independent_layers": "education",
+    "render_seconds": 4.6
+  },
+  {
+    "path": "scene03-voice.mp4",
+    "source_image": "voice-work-scene.png",
+    "duration": 7.5,
+    "frames": 225,
+    "size_bytes": 1407783,
+    "sha256": "7c4d7fc8fbbed40e96bb9be3c94da0e6d5954266b8ef40cf442be99cc84bdc4a",
+    "independent_layers": "voice",
+    "render_seconds": 5.55
+  },
+  {
+    "path": "scene04-opportunity.mp4",
+    "source_image": "opportunity-scene.png",
+    "duration": 7.0,
+    "frames": 210,
+    "size_bytes": 1138792,
+    "sha256": "7f3f5bed438d24d666e4b3477530e53eeba05420c7d807219723e66f5e4f2683",
+    "independent_layers": "opportunity",
+    "render_seconds": 5.02
+  },
+  {
+    "path": "scene05-community.mp4",
+    "source_image": "community-scene.png",
+    "duration": 7.0,
+    "frames": 210,
+    "size_bytes": 943938,
+    "sha256": "b42ba4937b9bb318243ad57a184551aa80b433cd66f99726d560a6b9ef3bbd6b",
+    "independent_layers": "community",
+    "render_seconds": 5.04
+  },
+  {
+    "path": "scene06-final.mp4",
+    "source_image": "generated-final-reference.png",
+    "duration": 5.5,
+    "frames": 165,
+    "size_bytes": 522175,
+    "sha256": "d4e0f6144d926273300d3fd27f9335e3e1f5a13cb7e63ffebc953ae91afd7018",
+    "independent_layers": "final",
+    "render_seconds": 4.9
+  }
+]

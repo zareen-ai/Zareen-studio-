@@ -1,0 +1,14 @@
+{
+  "character_id": "user-host",
+  "default_for_future_videos": true,
+  "consent_note": "The user provided the reference photo and explicitly requested her likeness for this and future videos.",
+  "visible_identity_lock": {
+    "eyes": "warm-brown eyes and brows; retain spacing and visible shape from the original selfie where possible",
+    "face_covering": "white hijab and black niqab; keep lower face covered; do not invent hidden features",
+    "wardrobe": "elegant modest emerald abaya with fine gold embroidery"
+  },
+  "reference_photo_status": "Stored locally outside the repository; not committed or uploaded separately.",
+  "approved_character_master": "media/user-host-character-master.png",
+  "privacy": "Do not commit or upload the original selfie. The user-approved generated character sheet may be used as the ongoing design reference.",
+  "fidelity_limit": "Generated pose changes can approximate but cannot guarantee pixel-identical eyes; the final close-up uses a crop of the original photo to preserve the visible eye pixels."
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "fps": 30,
+  "duration": 40.0,
+  "shots": [
+    {
+      "name": "01-open-the-choice",
+      "start": 0.0,
+      "end": 6.5,
+      "path": "scene01-door.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.24,
+        0.18,
+        0.78,
+        0.98
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.035,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.35
+      },
+      "sha256": "b8dbed656889fcca569447098b3b4dd1f46354317f0f10a1cdf721744a19fae6"
+    },
+    {
+      "name": "02-education-and-choice",
+      "start": 6.5,
+      "end": 13.0,
+      "path": "scene02-education.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.28,
+        0.39,
+        0.9,
+        0.98
+      ],
+      "transition": "depth_push",
+      "camera": {
+        "z_strength": 0.03,
+        "direction": -1,
+        "vertical_drift": -3,
+        "roll_degrees": 0.3
+      },
+      "sha256": "4761462747bbd2810c6562bc7de6dcd0ad2f04bd6163b1b15a347fe8851e575b"
+    },
+    {
+      "name": "03-voice-and-agency",
+      "start": 13.0,
+      "end": 20.5,
+      "path": "scene03-voice.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.24,
+        0.32,
+        0.82,
+        0.98
+      ],
+      "transition": "diagonal_whip",
+      "camera": {
+        "z_strength": 0.04,
+        "direction": 1,
+        "vertical_drift": -5,
+        "roll_degrees": 0.4
+      },
+      "sha256": "7c4d7fc8fbbed40e96bb9be3c94da0e6d5954266b8ef40cf442be99cc84bdc4a"
+    },
+    {
+      "name": "04-equal-opportunity",
+      "start": 20.5,
+      "end": 27.5,
+      "path": "scene04-opportunity.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.05,
+        0.36,
+        0.96,
+        0.98
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.025,
+        "direction": -1,
+        "vertical_drift": -3,
+        "roll_degrees": 0.25
+      },
+      "sha256": "7f3f5bed438d24d666e4b3477530e53eeba05420c7d807219723e66f5e4f2683"
+    },
+    {
+      "name": "05-shared-progress",
+      "start": 27.5,
+      "end": 34.5,
+      "path": "scene05-community.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.05,
+        0.36,
+        0.96,
+        0.98
+      ],
+      "transition": "depth_push",
+      "camera": {
+        "z_strength": 0.04,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.35
+      },
+      "sha256": "b42ba4937b9bb318243ad57a184551aa80b433cd66f99726d560a6b9ef3bbd6b"
+    },
+    {
+      "name": "06-final-question-hold",
+      "start": 34.5,
+      "end": 40.0,
+      "path": "scene06-final.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.05,
+        0.36,
+        0.96,
+        0.98
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.02,
+        "direction": -1,
+        "vertical_drift": -2,
+        "roll_degrees": 0.2
+      },
+      "sha256": "d4e0f6144d926273300d3fd27f9335e3e1f5a13cb7e63ffebc953ae91afd7018"
+    }
+  ],
+  "titles": [
+    {
+      "start": 0.3,
+      "end": 6.15,
+      "kicker": "WOMEN. HAQ. CHOICE.",
+      "title": "EMPOWERMENT",
+      "sub": "Barabar mauqa. Apni raah.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.04,
+      "size": 82,
+      "max_width": 0.88
+    },
+    {
+      "start": 6.85,
+      "end": 12.55,
+      "kicker": "HUNAR. IKHTIYAAR.",
+      "title": "TALEEM.\nCHOICE.",
+      "sub": "Seekho. Chuno. Aage barho.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.075,
+      "size": 82,
+      "max_width": 0.84
+    },
+    {
+      "start": 13.35,
+      "end": 19.9,
+      "kicker": "VOICE + AGENCY",
+      "title": "APNI\nAAWAAZ",
+      "sub": "Speak. Decide. Lead.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.075,
+      "size": 88,
+      "max_width": 0.82
+    },
+    {
+      "start": 21.15,
+      "end": 26.95,
+      "kicker": "WORK. SAFETY. RESPECT.",
+      "title": "EQUAL\nMAUQA",
+      "sub": "Not a favour. Fair access.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.075,
+      "size": 88,
+      "max_width": 0.82
+    },
+    {
+      "start": 28.0,
+      "end": 33.9,
+      "kicker": "BARRIERS HATEIN",
+      "title": "SAB AAGE",
+      "sub": "Families. Communities. Future.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.075,
+      "size": 94,
+      "max_width": 0.84
+    },
+    {
+      "start": 34.65,
+      "end": 36.28,
+      "kicker": "ASAL EMPOWERMENT",
+      "title": "HAR LARKI.\nAPNI RAAH?",
+      "sub": "Choice + mauqa.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.075,
+      "size": 84,
+      "max_width": 0.86
+    }
+  ],
+  "captions": [],
+  "voice_clips": [
+    {
+      "path": "media/voiceover.mp3",
+      "start": 0.2,
+      "end": 36.64,
+      "speed": 1.0,
+      "case_origin": false,
+      "voice_profile": "voice-01 — user-selected feminine Urdu-Pakistani narration",
+      "sha256": "063a861093121860c352c75c0e81423d65c1cda816791b8839074b6283ca518c"
+    }
+  ],
+  "note": "Voice-only revision: preserve the exact R2 six-shot picture, scene motion, type timing, transitions and 96 BPM music/SFX design; replace only the narration with user-selected feminine voice-01. Final exact-source eye crop and covering remain unchanged."
+}

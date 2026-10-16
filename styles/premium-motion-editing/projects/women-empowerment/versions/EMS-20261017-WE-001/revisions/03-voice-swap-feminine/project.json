@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "style_id": "premium-motion-editing",
+  "project_id": "WE-20261017-001-R3",
+  "topic": "What Is Women Empowerment? — voice-only feminine narration revision",
+  "mode": "new_production",
+  "timeline": "timeline.json",
+  "media_dir": "media",
+  "audio_mix": "media/mix.wav",
+  "output": "delivery/women-empowerment-user-host-v3-girl-voice-40s-9x16.mp4",
+  "font_dir": null,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "typography": {
+    "subtitle_mode": "off",
+    "plain_subtitles_requested": false,
+    "caption_pills": false,
+    "word_highlighting": false
+  },
+  "rights_status": "provided_by_user",
+  "script_status": "approved",
+  "motion_review": "approved",
+  "policy_id": "wf05-clean-editorial-20261015"
+}

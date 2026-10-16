@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261017-001-R3",
+  "approved_for_delivery": true,
+  "actual_motion_reviewed": true,
+  "subject_edges_intact": true,
+  "typography_legible": true,
+  "no_rejected_bottom_pills": true,
+  "no_social_tags_or_end_card": true,
+  "narration_scene_alignment_reviewed": true,
+  "factual_claims_reviewed": true,
+  "human_listening_performed": false,
+  "word_level_asr_performed": false,
+  "audio_listening_scope": "No human listening performed. Full technical audio decode, stereo presence, duration, RMS and peak checked; optional human pronunciation/mix listening remains recommended.",
+  "narration_alignment_scope": "Same approved script and visual beats as R2; voice replacement only. Voice clip duration checked from the generated audio metadata, not word-level ASR.",
+  "visual_review_note": "All 1,200 decoded video frames were compared frame by frame with R2; zero differing frames. Visual content, titles, timing, transitions and closing eye-crop are pixel-identical.",
+  "pending_checks": [
+    "Optional human listening for pronunciation and music/SFX balance; not performed.",
+    "Word-level ASR not performed."
+  ],
+  "technical_review": {
+    "format": "H.264 High, yuv420p; AAC stereo 48 kHz",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "duration_seconds": 40.0,
+    "frames": 1200,
+    "full_decode": true,
+    "audio_peak_dbfs": -0.75,
+    "audio_rms_dbfs": -18.43,
+    "video_pixel_identical_to_R2": true,
+    "sha256": "0ae23e0ed1b5fb63a8bde44196ec93420c81a6a4e3cf1cb63adb272bb4b6d78f"
+  }
+}
