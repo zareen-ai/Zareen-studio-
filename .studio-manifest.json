@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "algorithm": "sha256",
-  "generated_at": "2026-10-14T21:54:46+00:00",
+  "generated_at": "2026-10-16T20:51:29+00:00",
   "sparse_checkout_aware": true,
   "excludes": [
     ".git",
@@ -475,6 +475,14 @@
       "sha256": "860e42f431c3034bd44e00f247a75a66e4becac084c55748dfc22bbaeb4b20ce",
       "size": 6651
     },
+    "operations/continuity/checkpoints/EMS-20261017-WE-001/0001-20261016T205017Z/HANDOFF.md": {
+      "sha256": "2006f11cd879267ea55eb12858772411b55881bfafb70412d3e5dd0d4968bfae",
+      "size": 1607
+    },
+    "operations/continuity/checkpoints/EMS-20261017-WE-001/0001-20261016T205017Z/checkpoint.json": {
+      "sha256": "aafd9f5c566133319753d06a2d7209617a003668bf44ef2e5308244be8941326",
+      "size": 22470
+    },
     "operations/continuity/outbox/EMS-20261011-001/0001-20261010T212917Z/STATUS.md": {
       "sha256": "6c234adf3c1f6bee6a80b2cf301956d0d1dbf68189540ced0a49fd3158cffaae",
       "size": 957
@@ -858,6 +866,18 @@
     "operations/continuity/outbox/EMS-20261015-WF05-FOUNDATION/0006-20261014T215445Z/checkpoint.json": {
       "sha256": "460e5a0bfa1aa184d9b550a90f293025c80647fb96b31b959b3ac75324666862",
       "size": 6651
+    },
+    "operations/continuity/outbox/EMS-20261017-WE-001/0001-20261016T205017Z/STATUS.md": {
+      "sha256": "dbaa997718ad845b32ca59c10111de161db8aa42303572b03d8c3b0c37317cc3",
+      "size": 1112
+    },
+    "operations/continuity/outbox/EMS-20261017-WE-001/0001-20261016T205017Z/SYNC.json": {
+      "sha256": "788a83c6f881e84c598c96a2e255dd0641318049cd0a9a8b59d35758e6108a67",
+      "size": 3747
+    },
+    "operations/continuity/outbox/EMS-20261017-WE-001/0001-20261016T205017Z/checkpoint.json": {
+      "sha256": "e84fee367b23710032d91f3dfdfa138d580b780d1a177263bf4023293ece7745",
+      "size": 22543
     },
     "operations/continuity/receipts/EMS-20261011-003/FINAL_SYNC_RECEIPT.json": {
       "sha256": "e1dcfe80c4db25f451a21ee3d38875d4c361f4765f509a32a8283f796ee565d1",
@@ -1326,6 +1346,22 @@
     "operations/history/EMS-20261015-WF05-FOUNDATION/RESUME.md": {
       "sha256": "92d24e0c83e7e24db53f01cacbc7149cb858065da80b07e7cb97c6430f8643ec",
       "size": 2178
+    },
+    "operations/history/EMS-20261017-WE-001/ACTIVE_TASK.json": {
+      "sha256": "6aa110ca5e5773c4a6d8c831fc72af88e30d847171ce743f2487464ab137aef7",
+      "size": 1475
+    },
+    "operations/history/EMS-20261017-WE-001/CHAT_TRANSCRIPT.jsonl": {
+      "sha256": "d5fbab6e32badd22b6aaebc1921eec44a07ccf816bf54f25ffa8460fc396d8e4",
+      "size": 472
+    },
+    "operations/history/EMS-20261017-WE-001/JOURNAL.jsonl": {
+      "sha256": "dfe0ee57ecd70e01a0d30877832e1d3d89985091e48666a64f2a826934416114",
+      "size": 19240
+    },
+    "operations/history/EMS-20261017-WE-001/RESUME.md": {
+      "sha256": "2006f11cd879267ea55eb12858772411b55881bfafb70412d3e5dd0d4968bfae",
+      "size": 1607
     },
     "operations/incidents/INC-20261011-001/README.md": {
       "sha256": "e304b8f8155ed1343701b305a247d27aba32eca5cd9683dce9b4a1dffa062fc0",
@@ -3479,6 +3515,86 @@
       "sha256": "9c82207deee9d23c8685af95e257f43d7c231ec4e455114f8f561b338f855f86",
       "size": 6298
     },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/.gitignore": {
+      "sha256": "63ca87c692f02520240646128e81570b598400fb9318d4907e2737173d388d9c",
+      "size": 162
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/QA.json": {
+      "sha256": "3dcd6705651afb013857642c7997c6d014351fd999bb5aa5a1ab2268b64b0f07",
+      "size": 2885
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/README-rebuild.md": {
+      "sha256": "1df1c4348b005fb95eb8104e7cc846e128d9af19e92c2e96d5242b301d157ca7",
+      "size": 2345
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/RENDER_RECEIPT.json": {
+      "sha256": "8e433fd10e0008fcc6a07516e41a5177994b4c9ace25eb55368dcda1b6400f78",
+      "size": 2219
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/SCRIPT.md": {
+      "sha256": "30738ebdde67c50517aef5192f3c6a2ef735c1cbbb85dca5fb8da43dd26f33a0",
+      "size": 1941
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/START_HERE.md": {
+      "sha256": "db56edb617344bc78d41b6f7b3d87cc1db890742ddcb3758b664983031a95951",
+      "size": 956
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/asset-register.csv": {
+      "sha256": "d780426cf3416739e16057c59510eef880125fd94a0579fabf15667ea10e86c8",
+      "size": 4075
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/brief.json": {
+      "sha256": "50e93c973d597dc4bc4203fba7be21e2ca129c2fed30369a245c606a92edd778",
+      "size": 2256
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/build_assets.py": {
+      "sha256": "d94103d0012e75a4d6e5706baf098714df493b7839711b395259e9f311df253a",
+      "size": 21876
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/delivery-receipt.json": {
+      "sha256": "e600b41431cf2d35bb319eeee9a05ad388306f465005fc359ca6579b4416f056",
+      "size": 3905
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/delivery/source-recovery-manifest.json": {
+      "sha256": "036ddd73a6f50509e328ee29b95aea0c51bdb14befef13eb5ef21759089dcb73",
+      "size": 1946
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/media/audio-report.json": {
+      "sha256": "cbbfa5412f401b9a520da3b280ee92c846b9ce2bd6047cf43718a01f42e83dfd",
+      "size": 462
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/media/scene-manifest.json": {
+      "sha256": "d2a868d22601df3ec4e17e25a8da1d59a9f36c5c9a3a3c771ed2e9859436c6be",
+      "size": 1804
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/prepare_project.py": {
+      "sha256": "a81e6997a3a383dbf8b13091400ff12cf30fbbf8ed231f0449793601050f43c3",
+      "size": 1423
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/project.json": {
+      "sha256": "75b0a96034d1d3b0d020a70b7526687691f2f943d3b650c6b9071caee5986a84",
+      "size": 695
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/qa-review.json": {
+      "sha256": "e3b845a10fc52703b1b133a1eb3d398951f309932679f11e3cdbc9c9060eb71a",
+      "size": 2082
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/records/DELIVERY.md": {
+      "sha256": "41414ad8b18939f4201e96775a3c0c33b8d7a2f93bb275f79f253bdc551b0a38",
+      "size": 2506
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/records/creative-direction.md": {
+      "sha256": "644e6f6a188b356b945882a3b5c2e58da1569e09d3da5c62215b4fc2ed723a32",
+      "size": 2433
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/shot-plan.csv": {
+      "sha256": "8a728924caf96554fe5c395723a3236e758623af1d5cbe704b10ffae2bb151dc",
+      "size": 2536
+    },
+    "styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/wf05_women_empowerment_20261017/timeline.json": {
+      "sha256": "fc3478ea1855edb0a15d450a0a6f065336b00e3119e8e938b35d3845caa88fd2",
+      "size": 5384
+    },
     "styles/premium-motion-editing/prompts/MASTER_DIRECTOR.md": {
       "sha256": "c4e6da571e8822de1fc9803709408a8af1df422e05f3bf036485bd1bee38a52d",
       "size": 1657
@@ -3732,8 +3848,8 @@
       "size": 1025
     },
     "workflows/current/ACTIVE_TASK.json": {
-      "sha256": "d89ac16bc8297bc0e5300e0e4af87cf2330e7f58a582d83ff42bda1001bfeeb1",
-      "size": 745
+      "sha256": "3d3f5694655235351b419936d8ca2c45d2ac9b84fb2e41da237a9d30a15050e0",
+      "size": 736
     },
     "workflows/current/CHAT_TRANSCRIPT.jsonl": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",

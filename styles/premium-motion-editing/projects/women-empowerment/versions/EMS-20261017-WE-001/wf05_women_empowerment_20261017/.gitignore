@@ -1,0 +1,8 @@
+# Reproducible heavy media is stored in the verified Drive project folder.
+media/*.mp4
+media/*.wav
+media/*.mp3
+media/*.png
+reviews/
+delivery/*.mp4
+delivery/*.zip

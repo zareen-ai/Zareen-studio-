@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261017-001",
+  "technical_report": "QA.json; WF-05 verify technical_pass=true",
+  "encoded_frame_samples": [
+    "reviews/encoded/shot-00-0.jpg", "reviews/encoded/shot-00-1.jpg", "reviews/encoded/shot-00-2.jpg",
+    "reviews/encoded/shot-01-0.jpg", "reviews/encoded/shot-01-1.jpg", "reviews/encoded/shot-01-2.jpg",
+    "reviews/encoded/shot-02-0.jpg", "reviews/encoded/shot-02-1.jpg", "reviews/encoded/shot-02-2.jpg",
+    "reviews/encoded/shot-03-0.jpg", "reviews/encoded/shot-03-1.jpg", "reviews/encoded/shot-03-2.jpg",
+    "reviews/encoded/shot-04-0.jpg", "reviews/encoded/shot-04-1.jpg", "reviews/encoded/shot-04-2.jpg",
+    "reviews/encoded/shot-05-0.jpg", "reviews/encoded/shot-05-1.jpg", "reviews/encoded/shot-05-2.jpg"
+  ],
+  "actual_motion_reviewed": true,
+  "subject_edges_intact": true,
+  "typography_legible": true,
+  "no_rejected_bottom_pills": true,
+  "no_social_tags_or_end_card": true,
+  "narration_scene_alignment_reviewed": true,
+  "audio_listening_scope": "Human listening not performed. Narration was generated from the saved exact script; duration, decode, peak and RMS were checked. Broad clause-to-scene timing was reviewed from the script, speech pauses and shot map; no ASR/word-level timing is claimed.",
+  "factual_claims_reviewed": true,
+  "reviewer_notes": [
+    "Reviewed source-motion start/end contact sheet and 18 encoded samples across all six shots.",
+    "Door reveal, book pages/step lights, sound rings/waveform, bridge blocks, traveling connection lights and final arc change independently; the camera move is supplementary.",
+    "Fictional adult subjects; no unsupported statistics, quotations, real-person likeness claims, social handles, caption pills or active-word strip.",
+    "The closing question is integrated into the community scene, not a branded end card.",
+    "Audio metrics: 40.00-second mix, 48 kHz stereo, -0.80 dBFS decoded sample peak, -19.27 dBFS overall RMS. Voice track is 34.28 seconds, placed at 0.20 seconds without time-stretch."
+  ],
+  "approved_for_delivery": true
+}

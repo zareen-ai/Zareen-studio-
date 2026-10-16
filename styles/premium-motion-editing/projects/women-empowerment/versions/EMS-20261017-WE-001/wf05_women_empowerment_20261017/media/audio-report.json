@@ -1,0 +1,15 @@
+{
+  "voice_source": "media/voiceover.mp3",
+  "voice_duration_seconds": 34.28,
+  "voice_start_seconds": 0.2,
+  "voice_end_seconds": 34.48,
+  "mix_duration_seconds": 40.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "voice_rms_before_dbfs": -22.34,
+  "voice_gain_db": 4.84,
+  "music_rms_dbfs": -35.5,
+  "mix_peak_dbfs": -0.79,
+  "music_and_sfx": "original synthesized pad, soft plucks, restrained transition sweeps; no third-party music",
+  "time_stretch": false
+}

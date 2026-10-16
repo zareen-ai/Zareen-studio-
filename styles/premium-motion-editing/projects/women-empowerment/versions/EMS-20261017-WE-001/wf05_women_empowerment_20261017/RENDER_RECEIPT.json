@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261017-001",
+  "style_id": "premium-motion-editing",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "subtitle_mode": "off",
+  "caption_pills": false,
+  "word_highlighting": false,
+  "frames": 1200,
+  "duration": 40.0,
+  "size": 21633517,
+  "sha256": "0c29e2359575ff065ad13f887d2182e64b55884e2eff7fd29b053a28beb95f57",
+  "input_fingerprint": "86838574fadac280b59bb27ea20ea8cf7ca9331da7249c9bdd89c12778bed971",
+  "source_hashes": {
+    "scene01-door.mp4": "c29cf2125ca7db1f03c44f96a35c55cd824b6ca36789f7c5a4f754cca56585f8",
+    "scene02-education.mp4": "d98c17d8cfbec795902af91ad813c4ac5657985d0200dabb1944915bbffcfc43",
+    "scene03-voice.mp4": "fbe024cd5e2a7ca7045d734b37a8dab8b054edc8487774ef60a5ae598c5da83e",
+    "scene04-opportunity.mp4": "a2497afa1bc04caf62ccf6bc305ddebdc84f5716dbf952fc549b44db8165afb5",
+    "scene05-community.mp4": "6e19d79021c0dbeea67e5d7df37650bd4aa819af0d9df48e955271035f90b580",
+    "scene06-final.mp4": "3c223b850f03fbc701376a65c54d699673ea17d993cd546e8ff99d258e50397c"
+  },
+  "layout_boxes": [
+    {
+      "index": 0,
+      "box": [
+        152,
+        76,
+        927,
+        370
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    },
+    {
+      "index": 1,
+      "box": [
+        303,
+        144,
+        777,
+        559
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    },
+    {
+      "index": 2,
+      "box": [
+        306,
+        144,
+        773,
+        573
+      ],
+      "font_base": 88.0,
+      "position": "top"
+    },
+    {
+      "index": 3,
+      "box": [
+        317,
+        144,
+        763,
+        601
+      ],
+      "font_base": 88.0,
+      "position": "top"
+    },
+    {
+      "index": 4,
+      "box": [
+        261,
+        144,
+        819,
+        454
+      ],
+      "font_base": 94.0,
+      "position": "top"
+    },
+    {
+      "index": 5,
+      "box": [
+        233,
+        144,
+        846,
+        562
+      ],
+      "font_base": 84.0,
+      "position": "top"
+    }
+  ],
+  "elapsed_seconds": 108.76,
+  "output": "/home/user/Zareen-studio-/workflows/current/payload/wf05_women_empowerment_20261017/delivery/women-empowerment-40s-9x16.mp4",
+  "status": "encoded_only_not_delivered"
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261017-001",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "technical_pass": true,
+  "visual_review_approved": true,
+  "caption_policy_pass": true,
+  "checks": {
+    "file_exists": true,
+    "h264_high_yuv420p": true,
+    "1080x1920_30fps": true,
+    "aac_stereo_48k": true,
+    "full_decode": true,
+    "faststart": true,
+    "frame_count": true,
+    "no_sampled_black_frames": true,
+    "decoded_audio_present": true,
+    "no_sample_clipping": true,
+    "render_receipt_matches": true,
+    "approved_caption_policy": true
+  },
+  "limitations": [
+    "Full decode and samples are not an independent human listening test.",
+    "Pixel changes alone cannot certify independent subject motion or aesthetic quality."
+  ],
+  "path": "/home/user/Zareen-studio-/workflows/current/payload/wf05_women_empowerment_20261017/delivery/women-empowerment-40s-9x16.mp4",
+  "size_bytes": 21633517,
+  "sha256": "0c29e2359575ff065ad13f887d2182e64b55884e2eff7fd29b053a28beb95f57",
+  "md5": "6f714c440f156adf8bf5d57cf71a4e83",
+  "decode_error": "",
+  "frames": 1200,
+  "samples": [
+    {
+      "time": 1.17,
+      "file": "reviews/encoded/shot-00-0.jpg"
+    },
+    {
+      "time": 3.38,
+      "file": "reviews/encoded/shot-00-1.jpg"
+    },
+    {
+      "time": 5.59,
+      "file": "reviews/encoded/shot-00-2.jpg"
+    },
+    {
+      "time": 7.67,
+      "file": "reviews/encoded/shot-01-0.jpg"
+    },
+    {
+      "time": 9.88,
+      "file": "reviews/encoded/shot-01-1.jpg"
+    },
+    {
+      "time": 12.09,
+      "file": "reviews/encoded/shot-01-2.jpg"
+    },
+    {
+      "time": 14.35,
+      "file": "reviews/encoded/shot-02-0.jpg"
+    },
+    {
+      "time": 16.9,
+      "file": "reviews/encoded/shot-02-1.jpg"
+    },
+    {
+      "time": 19.45,
+      "file": "reviews/encoded/shot-02-2.jpg"
+    },
+    {
+      "time": 21.76,
+      "file": "reviews/encoded/shot-03-0.jpg"
+    },
+    {
+      "time": 24.14,
+      "file": "reviews/encoded/shot-03-1.jpg"
+    },
+    {
+      "time": 26.52,
+      "file": "reviews/encoded/shot-03-2.jpg"
+    },
+    {
+      "time": 28.76,
+      "file": "reviews/encoded/shot-04-0.jpg"
+    },
+    {
+      "time": 31.14,
+      "file": "reviews/encoded/shot-04-1.jpg"
+    },
+    {
+      "time": 33.52,
+      "file": "reviews/encoded/shot-04-2.jpg"
+    },
+    {
+      "time": 35.49,
+      "file": "reviews/encoded/shot-05-0.jpg"
+    },
+    {
+      "time": 37.36,
+      "file": "reviews/encoded/shot-05-1.jpg"
+    },
+    {
+      "time": 39.23,
+      "file": "reviews/encoded/shot-05-2.jpg"
+    }
+  ],
+  "sample_peak_dbfs": -0.8,
+  "rms_dbfs": -19.27,
+  "audio_listening_scope": "Human listening not performed. Narration was generated from the saved exact script; duration, decode, peak and RMS were checked. Broad clause-to-scene timing was reviewed from the script, speech pauses and shot map; no ASR/word-level timing is claimed."
+}

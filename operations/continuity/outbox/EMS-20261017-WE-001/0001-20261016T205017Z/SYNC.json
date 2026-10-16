@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "0001-20261016T205017Z",
+  "task_id": "EMS-20261017-WE-001",
+  "created_at": "2026-10-16T20:50:17Z",
+  "targets": {
+    "github": {
+      "status": "pending",
+      "target": {
+        "required": true,
+        "scope": "task-specific",
+        "transport": "git",
+        "remote": "origin",
+        "repo_url": "https://github.com/zareen-ai/Zareen-studio-.git",
+        "branch": "arena/638e57e5-zareen-studio",
+        "note": "Session is pinned to the Arena branch; do not push to another branch."
+      },
+      "remote_id": null,
+      "synced_at": null,
+      "note": null
+    },
+    "google_docs": {
+      "status": "synced",
+      "target": {
+        "required": true,
+        "scope": "task-specific",
+        "document_id": "1yg7VK9S0luG4bPHQxWGtPIKxUcKcOSI6n7JnrCxPnLU",
+        "url": "https://docs.google.com/document/d/1yg7VK9S0luG4bPHQxWGtPIKxUcKcOSI6n7JnrCxPnLU/edit",
+        "role": "WF-05 codex delivery appendix"
+      },
+      "remote_id": "1yg7VK9S0luG4bPHQxWGtPIKxUcKcOSI6n7JnrCxPnLU",
+      "synced_at": "2026-10-16T20:51:16Z",
+      "note": "Delivery appendix appended to WF-05 codex; exact verification anchor read back.",
+      "url": "https://docs.google.com/document/d/1yg7VK9S0luG4bPHQxWGtPIKxUcKcOSI6n7JnrCxPnLU/edit"
+    },
+    "google_drive": {
+      "status": "synced",
+      "target": {
+        "required": true,
+        "scope": "task-specific",
+        "folder_id": "1sBCu6SmXPBGeQS7hxrAOjMr68cJ05ek7",
+        "url": "https://drive.google.com/drive/folders/1sBCu6SmXPBGeQS7hxrAOjMr68cJ05ek7",
+        "master_id": "1BNet_1VDzbyh43euk_wP1AHgF9y820ML",
+        "source_recovery_id": "1lPeNZS94w1Y7rrAeXrWYNVN13ifrcjKT",
+        "role": "verified final master and source-recovery archive"
+      },
+      "remote_id": "1sBCu6SmXPBGeQS7hxrAOjMr68cJ05ek7",
+      "synced_at": "2026-10-16T20:51:16Z",
+      "note": "Master and compact source-recovery ZIP independently re-read from Drive; size and MD5 match local receipts.",
+      "url": "https://drive.google.com/drive/folders/1sBCu6SmXPBGeQS7hxrAOjMr68cJ05ek7"
+    },
+    "linear": {
+      "status": "synced",
+      "target": {
+        "required": true,
+        "scope": "task-specific",
+        "issue_id": "391b292d-d331-490f-a926-567eeacd8885",
+        "issue_identifier": "ZAR-5",
+        "team_id": "fa70698a-1715-4c8d-86b9-9fe0d9d75b30",
+        "url": "https://linear.app/zareen/issue/ZAR-5/we-20261017-001-deliver-40s-women-empowerment-video",
+        "role": "completed task and QA record"
+      },
+      "remote_id": "391b292d-d331-490f-a926-567eeacd8885",
+      "synced_at": "2026-10-16T20:51:16Z",
+      "note": "ZAR-5 created in Done state and independently retrieved with final description.",
+      "url": "https://linear.app/zareen/issue/ZAR-5/we-20261017-001-deliver-40s-women-empowerment-video"
+    },
+    "notion": {
+      "status": "synced",
+      "target": {
+        "required": true,
+        "scope": "task-specific",
+        "page_id": "3fbbf8d6-7422-8175-bbc7-e7bbda2d2248",
+        "url": "https://app.notion.com/p/WF-05-WE-20261017-001-Women-Empowerment-Delivery-3fbbf8d674228175bbc7e7bbda2d2248",
+        "role": "task-specific delivery record in the current visible Notion workspace",
+        "note": "The historic WF-05 hub from the imported repository was not visible to this connector."
+      },
+      "remote_id": "3fbbf8d6-7422-8175-bbc7-e7bbda2d2248",
+      "synced_at": "2026-10-16T20:51:16Z",
+      "note": "Task-specific record created under current visible Welcome page; metadata and all 10 child blocks read back. Historic hub was not visible.",
+      "url": "https://app.notion.com/p/WF-05-WE-20261017-001-Women-Empowerment-Delivery-3fbbf8d674228175bbc7e7bbda2d2248"
+    }
+  }
+}

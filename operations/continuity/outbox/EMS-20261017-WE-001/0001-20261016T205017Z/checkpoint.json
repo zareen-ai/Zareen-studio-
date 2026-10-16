@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "checkpoint_id": "0001-20261016T205017Z",
+  "created_at": "2026-10-16T20:50:17Z",
+  "summary": "Delivered WE-20261017-001: final 40-second 9:16 master technically verified and sampled-visual approved; Drive master and compact source recovery independently checksum-verified; current Notion, Linear, and WF-05 Google Docs records created/appended and read back; user-facing master presented. Human listening and word-level ASR remain explicitly unperformed. Project payload promoted into the permanent WF-05 project archive; finish final Drive receipt/GitHub branch publication and record receipts without rerendering.",
+  "next_action": "Task complete; consult permanent archive.",
+  "active_state": {
+    "schema_version": 1,
+    "task_id": "EMS-20261017-WE-001",
+    "status": "completed",
+    "title": "Women Empowerment — 40s Premium Motion",
+    "style_id": "premium-motion-editing",
+    "goal": "Create and deliver an original 40-second, 9:16 vertical Easy Urdu-English explainer about women empowerment, with the selected feminine voice and premium WF-05 motion editing.",
+    "acceptance_criteria": [
+      "Verified master is exactly 40.00s, 1080x1920 (9:16), 30 fps H.264/AAC, with clean integrated typography (no caption pills or active-word strip), natural Easy Urdu-English narration, a fresh topic-specific argument and real subject/layer motion; no social branding. Independently verify playback/QA, Drive master and source-recovery checksums, and permanent style archive. Explicitly record that human listening and word-level ASR were not performed."
+    ],
+    "started_at": "2026-10-16T20:10:12Z",
+    "updated_at": "2026-10-16T20:50:17Z",
+    "checkpoint_sequence": 1,
+    "event_sequence": 28,
+    "journal_head": "d29a5dd86d3a6735f1405668ffd3a1dfc4fd2daf4dbd408ece28dd479f3ca254",
+    "last_checkpoint": "2026-10-16T20:50:17Z",
+    "last_checkpoint_path": "operations/continuity/checkpoints/EMS-20261017-WE-001/0001-20261016T205017Z",
+    "next_action": "Task complete; consult permanent archive.",
+    "running_processes": [],
+    "remote_sync": {
+      "github": "pending",
+      "google_docs": "pending",
+      "google_drive": "pending",
+      "linear": "pending",
+      "notion": "pending"
+    }
+  },
+  "journal_event": {
+    "schema_version": 1,
+    "task_id": "EMS-20261017-WE-001",
+    "seq": 28,
+    "timestamp": "2026-10-16T20:50:17Z",
+    "kind": "checkpoint",
+    "actor": "continuity",
+    "content": "Delivered WE-20261017-001: final 40-second 9:16 master technically verified and sampled-visual approved; Drive master and compact source recovery independently checksum-verified; current Notion, Linear, and WF-05 Google Docs records created/appended and read back; user-facing master presented. Human listening and word-level ASR remain explicitly unperformed. Project payload promoted into the permanent WF-05 project archive; finish final Drive receipt/GitHub branch publication and record receipts without rerendering.",
+    "content_sha256": "4e46c67f025630ede712152e6f2957ce6f01bc95e46b70697fd3195dd59fbcb3",
+    "metadata": {
+      "sequence": 1,
+      "next_action": "Task complete; consult permanent archive.",
+      "status": "completed"
+    },
+    "prev_event_sha256": "d1e975366215e20769b70e8f52e18219c545da0c33b67ae777d62776faf53313",
+    "event_sha256": "d29a5dd86d3a6735f1405668ffd3a1dfc4fd2daf4dbd408ece28dd479f3ca254"
+  },
+  "journal_head": "d29a5dd86d3a6735f1405668ffd3a1dfc4fd2daf4dbd408ece28dd479f3ca254",
+  "git": {
+    "initialized": true,
+    "head": "34ee55d2ab07502ebf3370dd2f07c2f4d1187cab",
+    "branch": "arena/638e57e5-zareen-studio",
+    "status": [
+      " M START_HERE.md",
+      " M workflows/current/ACTIVE_TASK.json",
+      " M workflows/current/CHAT_TRANSCRIPT.jsonl",
+      " M workflows/current/JOURNAL.jsonl",
+      " M workflows/current/RESUME.md",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/.gitignore",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/QA.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/README-rebuild.md",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/RENDER_RECEIPT.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/SCRIPT.md",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/START_HERE.md",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/asset-register.csv",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/brief.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/build_assets.py",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/delivery-receipt.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/delivery/source-recovery-manifest.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/media/audio-report.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/media/scene-manifest.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/prepare_project.py",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/project.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/qa-review.json",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/records/DELIVERY.md",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/records/creative-direction.md",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/shot-plan.csv",
+      "?? workflows/current/payload/wf05_women_empowerment_20261017/timeline.json"
+    ],
+    "remotes": [
+      "origin\thttps://github.com/zareen-ai/Zareen-studio-.git (fetch)",
+      "origin\thttps://github.com/zareen-ai/Zareen-studio-.git (push)"
+    ],
+    "submodules": [
+      " 756290289742535eb0ac3817548f152e9759cc70 vendor/awesome-opus5-5-videos (7562902)",
+      " f8b2552d1c4fd1ae5051dae3786719dc5bdb3ff8 vendor/effectcraft (f8b2552)"
+    ]
+  },
+  "payload_inventory": [
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/.gitignore",
+      "size": 162,
+      "sha256": "63ca87c692f02520240646128e81570b598400fb9318d4907e2737173d388d9c"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/QA.json",
+      "size": 2885,
+      "sha256": "3dcd6705651afb013857642c7997c6d014351fd999bb5aa5a1ab2268b64b0f07"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/README-rebuild.md",
+      "size": 2037,
+      "sha256": "cf9371c78e85c7aa8f885b6148eb6de0340b4056b4027c88dc11f033f963af4f"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/RENDER_RECEIPT.json",
+      "size": 2219,
+      "sha256": "8e433fd10e0008fcc6a07516e41a5177994b4c9ace25eb55368dcda1b6400f78"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/SCRIPT.md",
+      "size": 1941,
+      "sha256": "30738ebdde67c50517aef5192f3c6a2ef735c1cbbb85dca5fb8da43dd26f33a0"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/START_HERE.md",
+      "size": 956,
+      "sha256": "db56edb617344bc78d41b6f7b3d87cc1db890742ddcb3758b664983031a95951"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/__pycache__/build_assets.cpython-311.pyc",
+      "size": 43694,
+      "sha256": "47dee914806862c7191fb0177a2c49e7bfad6bb5f50f50ae2c10b1364236567d"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/asset-register.csv",
+      "size": 4075,
+      "sha256": "d780426cf3416739e16057c59510eef880125fd94a0579fabf15667ea10e86c8"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/brief.json",
+      "size": 2256,
+      "sha256": "50e93c973d597dc4bc4203fba7be21e2ca129c2fed30369a245c606a92edd778"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/build_assets.py",
+      "size": 21876,
+      "sha256": "d94103d0012e75a4d6e5706baf098714df493b7839711b395259e9f311df253a"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/delivery/WE-20261017-001-source-recovery.zip",
+      "size": 8161233,
+      "sha256": "d86a151f5de40169bff700aa0101f66ecf83e7ef0dec3005239c7400d60a4da4"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/delivery/source-recovery-manifest.json",
+      "size": 1946,
+      "sha256": "036ddd73a6f50509e328ee29b95aea0c51bdb14befef13eb5ef21759089dcb73"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/delivery/women-empowerment-40s-9x16.mp4",
+      "size": 21633517,
+      "sha256": "0c29e2359575ff065ad13f887d2182e64b55884e2eff7fd29b053a28beb95f57"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/delivery-receipt.json",
+      "size": 3607,
+      "sha256": "2c21279a02114dd6f18a1e49a6203b03cea76af5c0f142e6f9a90babae4aaac5"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/encode.log",
+      "size": 65,
+      "sha256": "1d3fbda45e2a1f584c89c6d60d1148e0b1043390a02c2363c77eae4407086de1"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/audio-report.json",
+      "size": 462,
+      "sha256": "cbbfa5412f401b9a520da3b280ee92c846b9ce2bd6047cf43718a01f42e83dfd"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/community-scene.png",
+      "size": 2191930,
+      "sha256": "f7e0cae1244103c17a79c9975f214d3b8a0f1650d890c4cba2baf1590eb83d69"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/education-scene.png",
+      "size": 1608681,
+      "sha256": "566ecc0a1d63f7a2574aa974866d04d1c79cc14f0f7e477b957ee1bdb62d0947"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/hero-reference.png",
+      "size": 1959477,
+      "sha256": "50bc8c656dbc7c91adbbba5b4fb68d506c6ebaa288b676a24a2f1a137a70cda1"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/mix.wav",
+      "size": 7680044,
+      "sha256": "99ca55b7bdc775887c016fed4f403be47473020bc46a036aa642e7a6a890a197"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/music-bed.wav",
+      "size": 7680044,
+      "sha256": "a40570a2f328a4c15de49611f286bb7036497243fc578219ca7c567ad7872e83"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene-manifest.json",
+      "size": 1804,
+      "sha256": "d2a868d22601df3ec4e17e25a8da1d59a9f36c5c9a3a3c771ed2e9859436c6be"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene01-door.mp4",
+      "size": 1089615,
+      "sha256": "c29cf2125ca7db1f03c44f96a35c55cd824b6ca36789f7c5a4f754cca56585f8"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene02-education.mp4",
+      "size": 925366,
+      "sha256": "d98c17d8cfbec795902af91ad813c4ac5657985d0200dabb1944915bbffcfc43"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene03-voice.mp4",
+      "size": 1861783,
+      "sha256": "fbe024cd5e2a7ca7045d734b37a8dab8b054edc8487774ef60a5ae598c5da83e"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene04-opportunity.mp4",
+      "size": 1694921,
+      "sha256": "a2497afa1bc04caf62ccf6bc305ddebdc84f5716dbf952fc549b44db8165afb5"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene05-community.mp4",
+      "size": 1650731,
+      "sha256": "6e19d79021c0dbeea67e5d7df37650bd4aa819af0d9df48e955271035f90b580"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/scene06-final.mp4",
+      "size": 1480783,
+      "sha256": "3c223b850f03fbc701376a65c54d699673ea17d993cd546e8ff99d258e50397c"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/voice-work-scene.png",
+      "size": 2026856,
+      "sha256": "a14af5d28be26f0fe76feba50a20d7c45cf7238d8f322519a67b18a65cd91ffa"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/media/voiceover.mp3",
+      "size": 137613,
+      "sha256": "06c9d6944e45168beb87417f77d5a8b528398ad3406847298c009d7c4b777bc5"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/prepare_project.py",
+      "size": 1423,
+      "sha256": "a81e6997a3a383dbf8b13091400ff12cf30fbbf8ed231f0449793601050f43c3"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/project.json",
+      "size": 695,
+      "sha256": "75b0a96034d1d3b0d020a70b7526687691f2f943d3b650c6b9071caee5986a84"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/qa-review.json",
+      "size": 2082,
+      "sha256": "e3b845a10fc52703b1b133a1eb3d398951f309932679f11e3cdbc9c9060eb71a"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/records/DELIVERY.md",
+      "size": 2241,
+      "sha256": "482584de63e5860aad1e4e85a344c70fe6c40ac7ecc7c25b66fc1245a7f391f7"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/records/creative-direction.md",
+      "size": 2433,
+      "sha256": "644e6f6a188b356b945882a3b5c2e58da1569e09d3da5c62215b4fc2ed723a32"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-00-0.jpg",
+      "size": 223119,
+      "sha256": "b90bb551315da317f7d8c31be2e67d0200419f35207655206f6d68caf62c9bbb"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-00-1.jpg",
+      "size": 230785,
+      "sha256": "c6dad0372eda3641baa3cfe206d3284c3eece050c52aaece1515ce9f3ab938c6"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-00-2.jpg",
+      "size": 222982,
+      "sha256": "0c7138fc347b449ebe6eb0e4934d0a71b6b46b32e35e7b61447a51cad546b04f"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-01-0.jpg",
+      "size": 185560,
+      "sha256": "69c1cd416e845f8c14654af82edc8c7d86a76c021fce0118c3cb66d743002043"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-01-1.jpg",
+      "size": 191802,
+      "sha256": "73df2fc949d5bf29040304506688d344e8e9712ae47e7cdd35832ca9ebd733cd"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-01-2.jpg",
+      "size": 189299,
+      "sha256": "042f020d8871aaa90c470162698ce57bc528d783e5ef088208e0458e9320e724"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-02-0.jpg",
+      "size": 257827,
+      "sha256": "3bedecaaa18f360ac38d42a88f16565c63d567f6c028299318f452147eca98eb"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-02-1.jpg",
+      "size": 272014,
+      "sha256": "c22bef900939480ecd6381e584b1700d45b43d712bbf4168fec2d6c717688e49"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-02-2.jpg",
+      "size": 266003,
+      "sha256": "5e209b2aec6f9c99f77ef559d761d5b720c1dd543dd7f4e4e3f3c8ea31478dd8"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-03-0.jpg",
+      "size": 299719,
+      "sha256": "b0c2aa367c35698cf86910136aa6c5ca1825cc84fc514e63756bac7b6aa0ed5a"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-03-1.jpg",
+      "size": 314481,
+      "sha256": "c588209fbfad34bd8e0fb5bb11538d1a8f59389ee61d55e046b603cde079fbcc"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-03-2.jpg",
+      "size": 307253,
+      "sha256": "faff381d6682e4d70021d9b06f534062b13fa93e2339d38d6dafba74cc8cba78"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-04-0.jpg",
+      "size": 296794,
+      "sha256": "71a487820a3c52c5c64da590db1739ecb103c38266057be59ade2172ed7d8a30"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-04-1.jpg",
+      "size": 307716,
+      "sha256": "f1d2df1c0b0c4e17c38584e5cde2589f845f5408c620d4eb3e683ee8ccb36253"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-04-2.jpg",
+      "size": 300111,
+      "sha256": "bd700fdbc5d2a03a331d337e4fc6c428f5e885aba86e0919bae0b22ecbbb7085"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-05-0.jpg",
+      "size": 297223,
+      "sha256": "60f36cdf8aa6af3279a0dd5ebc7be97feb694e1ffa604c72bd79bb939aab7626"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-05-1.jpg",
+      "size": 315839,
+      "sha256": "dbfb53cbf29cb794c9c39c278423c48ceeb751b8ddd3c848e30335022a372a21"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded/shot-05-2.jpg",
+      "size": 315448,
+      "sha256": "5cf0635e3523d953116107ba36d05b3e9d19390d511ef2282c3e67173867c3ae"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/encoded-midpoints-contact.png",
+      "size": 1652460,
+      "sha256": "6a686f0b91b323b5170b288709aa30b864a362b26e73a02446adbade0837678d"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/preview-contact.png",
+      "size": 1649486,
+      "sha256": "b93c5ceb41b04492a7e680d587e531456024fd3356f8e82f9847d13e9eadc7d3"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/shot-00.png",
+      "size": 1219673,
+      "sha256": "ab352ea3c09917aa9227be2f41a1ba415145edf5ba5da9969871c6d03de236ee"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/shot-01.png",
+      "size": 1023477,
+      "sha256": "6ac15cbbed26eb31af75ac06f49c62cecf519c5f1a9b1098059d3472226978b0"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/shot-02.png",
+      "size": 1626167,
+      "sha256": "726d9859fa637ecbd71088d04ce9fbdf435d24c76affeb9201cd0fb476c51672"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/shot-03.png",
+      "size": 1794518,
+      "sha256": "b13a8014f92da5857362c6a6f997bf3afd69056f645cddea2fabc5db568b0bf1"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/shot-04.png",
+      "size": 1766647,
+      "sha256": "3c615482c4fcaee9887bd4f018ac7e302ba8cbe3b0058caa1bfd248c1b4368fc"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/shot-05.png",
+      "size": 1801812,
+      "sha256": "759a2766b0ae9da58a26042f1fe0f4df46942c87d35a609a8d7a07164d47ea7f"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/01-end.jpg",
+      "size": 34652,
+      "sha256": "e676535a54157a3114c429cbda29cc6024ae8382f30d554c03a195d9fdc6e5d6"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/01-start.jpg",
+      "size": 38131,
+      "sha256": "72b671ed09032d8f513c8b2a66dff7eb0bad2691b59720afb5b425c6a0c67040"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/02-end.jpg",
+      "size": 35124,
+      "sha256": "e20855dac235ec63801f397232bc90b3cff0b293a6180fe17091468238b47814"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/02-start.jpg",
+      "size": 34238,
+      "sha256": "a624205f71078da3ca0f49183a76a799cc195a58bf6aac96a26d85ec8731aa40"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/03-end.jpg",
+      "size": 48884,
+      "sha256": "fdd0f0cb8fc362b996e864371c884d03200012c0bab9f544f3c0a3106612fb47"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/03-start.jpg",
+      "size": 47645,
+      "sha256": "0f0d477826d587ab14cd84eb95e9737f4b65fd0aa088635cd5ac519b11960e3d"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/04-end.jpg",
+      "size": 54761,
+      "sha256": "f2fbb4d0d5bb44caac81b61562982481ab3c981094d92bffd1ac02115ce7f084"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/04-start.jpg",
+      "size": 53230,
+      "sha256": "1dcf2bcd055d59282b43d53009a6e83405de40c9801f32a04d97517268336646"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/05-end.jpg",
+      "size": 54544,
+      "sha256": "01413bcdaa7775dd324dc5ea4e22d756085ee72e0c109c927b8dee98f5af55ab"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/05-start.jpg",
+      "size": 53105,
+      "sha256": "312521fcac52a8ee9561b6cb181ab16547a37223054f5ae8cdace7686d154536"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/06-end.jpg",
+      "size": 54666,
+      "sha256": "cab5699d18b998bd2e6308723e5ca35fa26a6ae8ed76ae014356a3fcd325fbde"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source/06-start.jpg",
+      "size": 52970,
+      "sha256": "75441f02f975db924462567d402f3dd22eaa4f1ec46cd9cb086b20f63aad881b"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/reviews/source-contact.png",
+      "size": 2665535,
+      "sha256": "f7da1122464dbfe6c60f5b10be6058f3e8451c3ad882dc0bc4a98db202cedaa4"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/shot-plan.csv",
+      "size": 2536,
+      "sha256": "8a728924caf96554fe5c395723a3236e758623af1d5cbe704b10ffae2bb151dc"
+    },
+    {
+      "path": "workflows/current/payload/wf05_women_empowerment_20261017/timeline.json",
+      "size": 5384,
+      "sha256": "fc3478ea1855edb0a15d450a0a6f065336b00e3119e8e938b35d3845caa88fd2"
+    }
+  ]
+}

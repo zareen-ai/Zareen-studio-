@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "workflow_code": "WF-05",
+  "project_id": "WE-20261017-001",
+  "topic": "What Is Women Empowerment?",
+  "mode": "new_production",
+  "audience": "General Urdu-English-speaking social-video viewers",
+  "desired_takeaway": "Women empowerment means equal rights, meaningful choices and fair opportunities for women and girls—not superiority over anyone.",
+  "argument_claims": [
+    "Empowerment includes women's ability to make decisions about their lives.",
+    "Education, work, income, voice, safety and respect are examples of conditions that support meaningful choice.",
+    "Removing unfair barriers and expanding equal opportunity supports families and communities."
+  ],
+  "language": "Easy spoken Urdu-English; Roman Urdu / English integrated headlines",
+  "reference_role": "WF-05 visual grammar only; no external video reference or reused case footage",
+  "reference_urls": [],
+  "rights_review": "Original script; AI-generated fictional adult characters and scene plates; session-generated feminine Urdu narration; bundled OFL-licensed fonts; no third-party footage.",
+  "duration_target_seconds": 40,
+  "format": "9:16 vertical, 1080x1920, 30 fps",
+  "selected_voice_asset_or_profile": "voice-00, feminine Urdu narration selected by the user in this session; source file media/voiceover.mp3",
+  "new_script_required": true,
+  "caption_policy": "integrated scene-specific headlines only; no subtitle overlay, lower caption pills or active-word strip",
+  "source_constraints": [
+    "Use a fresh argument and metaphors for women empowerment; do not relabel the Einstein case.",
+    "No unsupported statistics, invented quotations, logos, social handles or end card.",
+    "Keep the subject adult, fictional, respectful and accurately represented."
+  ],
+  "delivery_destination": "Local verified MP4 and existing WF-05 Drive project folder if connector upload succeeds",
+  "acceptance": [
+    "Exactly 40 seconds at 30 fps in 9:16 portrait format.",
+    "Natural easy Urdu-English narration in a feminine voice.",
+    "Topic-specific independent visual motion with clean integrated typography; no rejected caption UI.",
+    "H.264 High/yuv420p video, AAC stereo 48 kHz audio, faststart, full-decode verification."
+  ]
+}
