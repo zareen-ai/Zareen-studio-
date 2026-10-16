@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261017-001-R2",
+  "style_id": "premium-motion-editing",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "subtitle_mode": "off",
+  "caption_pills": false,
+  "word_highlighting": false,
+  "frames": 1200,
+  "duration": 40.0,
+  "size": 19969307,
+  "sha256": "11ee986bb27741a103db7ddbe13d9141341698a49fba7c98dd3ae6931fc5a209",
+  "input_fingerprint": "e45a30c3f985c3ce2928706e99df0ceba77749b11d236d009d49e1500082ae15",
+  "source_hashes": {
+    "scene01-door.mp4": "b8dbed656889fcca569447098b3b4dd1f46354317f0f10a1cdf721744a19fae6",
+    "scene02-education.mp4": "4761462747bbd2810c6562bc7de6dcd0ad2f04bd6163b1b15a347fe8851e575b",
+    "scene03-voice.mp4": "7c4d7fc8fbbed40e96bb9be3c94da0e6d5954266b8ef40cf442be99cc84bdc4a",
+    "scene04-opportunity.mp4": "7f3f5bed438d24d666e4b3477530e53eeba05420c7d807219723e66f5e4f2683",
+    "scene05-community.mp4": "b42ba4937b9bb318243ad57a184551aa80b433cd66f99726d560a6b9ef3bbd6b",
+    "scene06-final.mp4": "d4e0f6144d926273300d3fd27f9335e3e1f5a13cb7e63ffebc953ae91afd7018"
+  },
+  "layout_boxes": [
+    {
+      "index": 0,
+      "box": [
+        152,
+        76,
+        927,
+        370
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    },
+    {
+      "index": 1,
+      "box": [
+        303,
+        144,
+        777,
+        559
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    },
+    {
+      "index": 2,
+      "box": [
+        306,
+        144,
+        773,
+        573
+      ],
+      "font_base": 88.0,
+      "position": "top"
+    },
+    {
+      "index": 3,
+      "box": [
+        317,
+        144,
+        763,
+        601
+      ],
+      "font_base": 88.0,
+      "position": "top"
+    },
+    {
+      "index": 4,
+      "box": [
+        261,
+        144,
+        819,
+        454
+      ],
+      "font_base": 94.0,
+      "position": "top"
+    },
+    {
+      "index": 5,
+      "box": [
+        233,
+        144,
+        846,
+        562
+      ],
+      "font_base": 84.0,
+      "position": "top"
+    }
+  ],
+  "elapsed_seconds": 102.58,
+  "output": "delivery/women-empowerment-user-host-v2-40s-9x16.mp4",
+  "status": "delivered_and_drive_verified",
+  "drive_file_id": "1_zfNF_YxZDxaULlNFqFxfaqnKutLDBTY",
+  "drive_web_view_link": "https://drive.google.com/file/d/1_zfNF_YxZDxaULlNFqFxfaqnKutLDBTY/view?usp=drivesdk",
+  "drive_md5_checksum": "abd44784ec7810165fce4ecd2020e2f1"
+}

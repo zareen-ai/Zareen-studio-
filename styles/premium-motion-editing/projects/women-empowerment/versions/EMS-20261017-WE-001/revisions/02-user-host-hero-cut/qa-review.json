@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261017-001-R2",
+  "approved_for_delivery": true,
+  "actual_motion_reviewed": true,
+  "subject_edges_intact": true,
+  "typography_legible": true,
+  "no_rejected_bottom_pills": true,
+  "no_social_tags_or_end_card": true,
+  "narration_scene_alignment_reviewed": true,
+  "factual_claims_reviewed": true,
+  "human_listening_performed": false,
+  "word_level_asr_performed": false,
+  "audio_listening_scope": "No human listening performed. Technical full decode, stereo presence, duration, RMS and peak checked; human pronunciation/mix listening remains recommended.",
+  "visual_review_note": "Reviewed six rendered scene clips, six 9:16 composite midpoint frames and eight encoded output samples. Final headline clears before a hard match-cut to the supplied exact-eye crop; no doubled-face dissolve. Wardrobe and covering remain consistent.",
+  "pending_checks": [
+    "Optional human listening for pronunciation and music/SFX balance; not performed in this session.",
+    "Word-level ASR not performed (no word-level subtitle track requested)."
+  ],
+  "narration_alignment_scope": "Script-to-scene beat alignment and the generated 35.8s voice metadata were reviewed; no word-level ASR/acoustic timing was performed.",
+  "technical_review": {
+    "format": "H.264 High, yuv420p; AAC stereo 48 kHz",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "duration_seconds": 40.0,
+    "frames": 1200,
+    "full_decode": true,
+    "peak_dbfs": -0.91,
+    "audio_rms_dbfs": -19.08,
+    "sha256": "11ee986bb27741a103db7ddbe13d9141341698a49fba7c98dd3ae6931fc5a209"
+  }
+}
