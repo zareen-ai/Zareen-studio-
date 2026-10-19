@@ -1,0 +1,10 @@
+media/*.png
+media/*.jpg
+media/*.jpeg
+media/*.mp3
+media/*.wav
+media/*.mp4
+delivery/*.mp4
+delivery/*.zip
+reviews/
+__pycache__/

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261019-002",
+  "approved_for_delivery": true,
+  "actual_motion_reviewed": true,
+  "subject_edges_intact": true,
+  "typography_legible": true,
+  "no_rejected_bottom_pills": true,
+  "no_social_tags_or_end_card": true,
+  "narration_scene_alignment_reviewed": true,
+  "factual_claims_reviewed": true,
+  "human_listening_performed": false,
+  "word_level_asr_performed": false,
+  "audio_listening_scope": "No human listening performed. Full technical decode, stereo presence, duration, RMS and peak checked; optional human pronunciation/mix listening remains recommended.",
+  "narration_alignment_scope": "Script beats were checked against the six-scene timeline. No word-level ASR or acoustic timing was performed.",
+  "visual_review_note": "All six source-motion clips, six integrated-title previews and the final 1080x1920 encoded samples were reviewed. Typography and subject framing are legible; independent vector motion is present across every scene. The protagonist is fictional and not the user.",
+  "pending_checks": [
+    "Optional human listening for Urdu pronunciation and music/SFX balance was not performed.",
+    "Word-level ASR was not performed."
+  ]
+}

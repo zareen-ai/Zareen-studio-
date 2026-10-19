@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "fps": 30,
+  "duration": 40.0,
+  "shots": [
+    {
+      "name": "01-hook-mirror",
+      "start": 0.0,
+      "end": 6.0,
+      "path": "scene01-hook.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.08,
+        0.16,
+        0.92,
+        0.94
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.035,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.35
+      },
+      "sha256": "d6409ba907478d04c4b434eaea3cb51c92b33c2e2b5cacba3b8a031932d7f697"
+    },
+    {
+      "name": "02-home-load",
+      "start": 6.0,
+      "end": 12.5,
+      "path": "scene02-home.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.08,
+        0.2,
+        0.92,
+        0.96
+      ],
+      "transition": "depth_push",
+      "camera": {
+        "z_strength": 0.032,
+        "direction": -1,
+        "vertical_drift": -3,
+        "roll_degrees": 0.3
+      },
+      "sha256": "48adaeddb07b165643b9642498dddff137d3277fce8be1c52950af987731004d"
+    },
+    {
+      "name": "03-career-voice",
+      "start": 12.5,
+      "end": 19.0,
+      "path": "scene03-career.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.06,
+        0.19,
+        0.94,
+        0.95
+      ],
+      "transition": "diagonal_whip",
+      "camera": {
+        "z_strength": 0.04,
+        "direction": 1,
+        "vertical_drift": -5,
+        "roll_degrees": 0.4
+      },
+      "sha256": "ca874a47047839e0572c0664cf104d7731d556c81e5c1a8ecba0834531607051"
+    },
+    {
+      "name": "04-mutual-listening",
+      "start": 19.0,
+      "end": 25.5,
+      "path": "scene04-relationship.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.08,
+        0.2,
+        0.93,
+        0.96
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.03,
+        "direction": -1,
+        "vertical_drift": -3,
+        "roll_degrees": 0.28
+      },
+      "sha256": "78180978ad281d8cfe5aa396579ce580d510001068d7ddb341bbc1431fba6e41"
+    },
+    {
+      "name": "05-shared-responsibility",
+      "start": 25.5,
+      "end": 32.5,
+      "path": "scene05-shared.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.06,
+        0.2,
+        0.95,
+        0.96
+      ],
+      "transition": "depth_push",
+      "camera": {
+        "z_strength": 0.038,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.34
+      },
+      "sha256": "3f0ca1dc8ec669d620b2f153f7406dcb65c1d8cec5e0b245803dd1580240bde1"
+    },
+    {
+      "name": "06-closing-together",
+      "start": 32.5,
+      "end": 40.0,
+      "path": "scene06-close.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.08,
+        0.14,
+        0.92,
+        0.92
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.025,
+        "direction": -1,
+        "vertical_drift": -2,
+        "roll_degrees": 0.2
+      },
+      "sha256": "4023872ef1cd4ee2e2b451dbe67b2fff87ac2338e5d4a3335ef461cb7e0d00ee"
+    }
+  ],
+  "titles": [
+    {
+      "start": 0.25,
+      "end": 5.65,
+      "kicker": "EK SAWAL",
+      "title": "HAR BAAR\nLARKI HI?",
+      "sub": "Adjust kyun?",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.05,
+      "size": 86,
+      "max_width": 0.88
+    },
+    {
+      "start": 6.45,
+      "end": 12.0,
+      "kicker": "GHAR MEIN",
+      "title": "KAAM BAANTO",
+      "sub": "Zimmedari sab ki.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.07,
+      "size": 90,
+      "max_width": 0.86
+    },
+    {
+      "start": 13.0,
+      "end": 18.5,
+      "kicker": "PARHAI. CAREER.",
+      "title": "USKI BAAT BHI",
+      "sub": "Listen. Respect. Support.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.07,
+      "size": 84,
+      "max_width": 0.87
+    },
+    {
+      "start": 19.55,
+      "end": 24.95,
+      "kicker": "RISHTON MEIN",
+      "title": "TUM HI MAAN JAO?",
+      "sub": "Samjhauta dono taraf.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.07,
+      "size": 83,
+      "max_width": 0.9
+    },
+    {
+      "start": 26.25,
+      "end": 32.0,
+      "kicker": "SHARED RESPECT",
+      "title": "KAAM. FAISLAY.\nDONO.",
+      "sub": "Share the load.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.07,
+      "size": 80,
+      "max_width": 0.88
+    },
+    {
+      "start": 33.2,
+      "end": 38.8,
+      "kicker": "YAAD RAKHO",
+      "title": "COMPROMISE\nDO TARAF SE.",
+      "sub": "Tabhi rishta strong.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.055,
+      "size": 82,
+      "max_width": 0.88
+    }
+  ],
+  "captions": [],
+  "voice_clips": [
+    {
+      "path": "media/voiceover.mp3",
+      "start": 0.2,
+      "end": 36.68,
+      "speed": 1.0,
+      "case_origin": false,
+      "voice_profile": "voice-01 — user-selected feminine Pakistani Urdu",
+      "sha256": "13b3749dc3e16e8feaad1feaa7992b433a6c557f513fd6e8e067e0593bd276fd"
+    }
+  ],
+  "note": "40-second vertical social explainer with fictional protagonist, six smooth independently animated scenes, time-coded 40-second motion plan and voice-01 feminine Urdu-English narration. No user likeness. Integrated headlines only."
+}

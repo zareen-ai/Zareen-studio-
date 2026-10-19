@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261019-002",
+  "style_id": "premium-motion-editing",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "subtitle_mode": "off",
+  "caption_pills": false,
+  "word_highlighting": false,
+  "frames": 1200,
+  "duration": 40.0,
+  "size": 19834662,
+  "sha256": "7f72c1352b08aa28cd0af5e0f4a0cf2cd88be126f42bd2b76c3ea5e51a9c51dc",
+  "input_fingerprint": "b58c0671a907facb22b9d053ff3fc8f4c15a52f53929394501d8361871aa6bf3",
+  "source_hashes": {
+    "scene01-hook.mp4": "d6409ba907478d04c4b434eaea3cb51c92b33c2e2b5cacba3b8a031932d7f697",
+    "scene02-home.mp4": "48adaeddb07b165643b9642498dddff137d3277fce8be1c52950af987731004d",
+    "scene03-career.mp4": "ca874a47047839e0572c0664cf104d7731d556c81e5c1a8ecba0834531607051",
+    "scene04-relationship.mp4": "78180978ad281d8cfe5aa396579ce580d510001068d7ddb341bbc1431fba6e41",
+    "scene05-shared.mp4": "3f0ca1dc8ec669d620b2f153f7406dcb65c1d8cec5e0b245803dd1580240bde1",
+    "scene06-close.mp4": "4023872ef1cd4ee2e2b451dbe67b2fff87ac2338e5d4a3335ef461cb7e0d00ee"
+  },
+  "layout_boxes": [
+    {
+      "index": 0,
+      "box": [
+        275,
+        96,
+        805,
+        520
+      ],
+      "font_base": 86.0,
+      "position": "top"
+    },
+    {
+      "index": 1,
+      "box": [
+        152,
+        134,
+        927,
+        438
+      ],
+      "font_base": 90.0,
+      "position": "top"
+    },
+    {
+      "index": 2,
+      "box": [
+        183,
+        134,
+        897,
+        430
+      ],
+      "font_base": 84.0,
+      "position": "top"
+    },
+    {
+      "index": 3,
+      "box": [
+        62,
+        134,
+        1017,
+        429
+      ],
+      "font_base": 83.0,
+      "position": "top"
+    },
+    {
+      "index": 4,
+      "box": [
+        162,
+        134,
+        918,
+        545
+      ],
+      "font_base": 80.0,
+      "position": "top"
+    },
+    {
+      "index": 5,
+      "box": [
+        201,
+        105,
+        879,
+        522
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    }
+  ],
+  "elapsed_seconds": 93.93,
+  "output": "/home/user/Zareen-studio-/styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/revisions/04-adjustment-choice-video/delivery/women-adjustment-mutual-respect-40s-9x16.mp4",
+  "status": "encoded_only_not_delivered"
+}

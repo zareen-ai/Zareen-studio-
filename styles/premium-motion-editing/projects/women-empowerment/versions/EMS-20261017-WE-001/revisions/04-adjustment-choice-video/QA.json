@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261019-002",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "technical_pass": true,
+  "visual_review_approved": true,
+  "caption_policy_pass": true,
+  "checks": {
+    "file_exists": true,
+    "h264_high_yuv420p": true,
+    "1080x1920_30fps": true,
+    "aac_stereo_48k": true,
+    "full_decode": true,
+    "faststart": true,
+    "frame_count": true,
+    "no_sampled_black_frames": true,
+    "decoded_audio_present": true,
+    "no_sample_clipping": true,
+    "render_receipt_matches": true,
+    "approved_caption_policy": true
+  },
+  "limitations": [
+    "Full decode and samples are not an independent human listening test.",
+    "Pixel changes alone cannot certify independent subject motion or aesthetic quality."
+  ],
+  "path": "/home/user/Zareen-studio-/styles/premium-motion-editing/projects/women-empowerment/versions/EMS-20261017-WE-001/revisions/04-adjustment-choice-video/delivery/women-adjustment-mutual-respect-40s-9x16.mp4",
+  "size_bytes": 19834662,
+  "sha256": "7f72c1352b08aa28cd0af5e0f4a0cf2cd88be126f42bd2b76c3ea5e51a9c51dc",
+  "md5": "d671ccac53b4e3b5101482156a1323d2",
+  "decode_error": "",
+  "frames": 1200,
+  "samples": [
+    {
+      "time": 1.08,
+      "file": "reviews/encoded/shot-00-0.jpg"
+    },
+    {
+      "time": 3.12,
+      "file": "reviews/encoded/shot-00-1.jpg"
+    },
+    {
+      "time": 5.16,
+      "file": "reviews/encoded/shot-00-2.jpg"
+    },
+    {
+      "time": 7.17,
+      "file": "reviews/encoded/shot-01-0.jpg"
+    },
+    {
+      "time": 9.38,
+      "file": "reviews/encoded/shot-01-1.jpg"
+    },
+    {
+      "time": 11.59,
+      "file": "reviews/encoded/shot-01-2.jpg"
+    },
+    {
+      "time": 13.67,
+      "file": "reviews/encoded/shot-02-0.jpg"
+    },
+    {
+      "time": 15.88,
+      "file": "reviews/encoded/shot-02-1.jpg"
+    },
+    {
+      "time": 18.09,
+      "file": "reviews/encoded/shot-02-2.jpg"
+    },
+    {
+      "time": 20.17,
+      "file": "reviews/encoded/shot-03-0.jpg"
+    },
+    {
+      "time": 22.38,
+      "file": "reviews/encoded/shot-03-1.jpg"
+    },
+    {
+      "time": 24.59,
+      "file": "reviews/encoded/shot-03-2.jpg"
+    },
+    {
+      "time": 26.76,
+      "file": "reviews/encoded/shot-04-0.jpg"
+    },
+    {
+      "time": 29.14,
+      "file": "reviews/encoded/shot-04-1.jpg"
+    },
+    {
+      "time": 31.52,
+      "file": "reviews/encoded/shot-04-2.jpg"
+    },
+    {
+      "time": 33.85,
+      "file": "reviews/encoded/shot-05-0.jpg"
+    },
+    {
+      "time": 36.4,
+      "file": "reviews/encoded/shot-05-1.jpg"
+    },
+    {
+      "time": 38.95,
+      "file": "reviews/encoded/shot-05-2.jpg"
+    }
+  ],
+  "sample_peak_dbfs": -0.73,
+  "rms_dbfs": -17.21,
+  "audio_listening_scope": "No human listening performed. Full technical decode, stereo presence, duration, RMS and peak checked; optional human pronunciation/mix listening remains recommended."
+}

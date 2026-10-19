@@ -1,0 +1,62 @@
+[
+  {
+    "path": "scene01-hook.mp4",
+    "source_image": "scene01-hook-mirror.png",
+    "duration": 6.0,
+    "frames": 180,
+    "size_bytes": 896133,
+    "sha256": "d6409ba907478d04c4b434eaea3cb51c92b33c2e2b5cacba3b8a031932d7f697",
+    "independent_layers": "hook",
+    "render_seconds": 4.35
+  },
+  {
+    "path": "scene02-home.mp4",
+    "source_image": "scene02-home-load.png",
+    "duration": 6.5,
+    "frames": 195,
+    "size_bytes": 899835,
+    "sha256": "48adaeddb07b165643b9642498dddff137d3277fce8be1c52950af987731004d",
+    "independent_layers": "home",
+    "render_seconds": 4.51
+  },
+  {
+    "path": "scene03-career.mp4",
+    "source_image": "scene03-career-voice.png",
+    "duration": 6.5,
+    "frames": 195,
+    "size_bytes": 928507,
+    "sha256": "ca874a47047839e0572c0664cf104d7731d556c81e5c1a8ecba0834531607051",
+    "independent_layers": "career",
+    "render_seconds": 4.4
+  },
+  {
+    "path": "scene04-relationship.mp4",
+    "source_image": "scene04-relationship-listening.png",
+    "duration": 6.5,
+    "frames": 195,
+    "size_bytes": 1052337,
+    "sha256": "78180978ad281d8cfe5aa396579ce580d510001068d7ddb341bbc1431fba6e41",
+    "independent_layers": "relationship",
+    "render_seconds": 4.4
+  },
+  {
+    "path": "scene05-shared.mp4",
+    "source_image": "scene05-shared-responsibility.png",
+    "duration": 7.0,
+    "frames": 210,
+    "size_bytes": 1428131,
+    "sha256": "3f0ca1dc8ec669d620b2f153f7406dcb65c1d8cec5e0b245803dd1580240bde1",
+    "independent_layers": "shared",
+    "render_seconds": 4.58
+  },
+  {
+    "path": "scene06-close.mp4",
+    "source_image": "scene06-closing-portrait.png",
+    "duration": 7.5,
+    "frames": 225,
+    "size_bytes": 1081139,
+    "sha256": "4023872ef1cd4ee2e2b451dbe67b2fff87ac2338e5d4a3335ef461cb7e0d00ee",
+    "independent_layers": "final",
+    "render_seconds": 4.62
+  }
+]
