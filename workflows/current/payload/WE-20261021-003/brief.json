@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261021-003",
+  "topic": "Hum social media wali life ko apni life se kyun compare karte hain?",
+  "audience": "Urdu-speaking young adults using social media",
+  "objective": "Make viewers recognize curated highlight reels and return attention to their own progress.",
+  "format": "9:16 vertical, 60 seconds",
+  "language": "Easy Urdu-English",
+  "voice": "voice-01 feminine Pakistani Urdu",
+  "visual_direction": "Cinematic 9:16; fictional protagonist; color arc indigo/teal → saturated coral/fuchsia/cyan feed → cool comparison blue → warm amber reset → golden/coral close. Animated color wash and independent motion layers change continuously frame by frame.",
+  "constraints": [
+    "No user likeness or photo used.",
+    "No caption pills, active-word strips, logos, social handles or generic end card.",
+    "Integrated headlines only.",
+    "No claim that all social posts are fabricated."
+  ]
+}

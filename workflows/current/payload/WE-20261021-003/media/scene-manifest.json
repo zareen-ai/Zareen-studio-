@@ -1,0 +1,68 @@
+[
+  {
+    "path": "scene01-hook.mp4",
+    "source_image": "scene01-hook-phone.png",
+    "duration": 10.0,
+    "frames": 300,
+    "size_bytes": 2161807,
+    "sha256": "34fbc789335e8f187d105afabeb4582c1255dc1934c769318a4d7056b1ee510e",
+    "independent_layers": "hook",
+    "color_grade": "continuous per-frame palette shift",
+    "render_seconds": 17.96
+  },
+  {
+    "path": "scene02-feed.mp4",
+    "source_image": "scene02-highlight-feed.png",
+    "duration": 10.0,
+    "frames": 300,
+    "size_bytes": 1694287,
+    "sha256": "a4e24cc844fc1ca3b10138ac7ebaa36c383c840ee8419ba71cd66dcc718150b9",
+    "independent_layers": "feed",
+    "color_grade": "continuous per-frame palette shift",
+    "render_seconds": 17.95
+  },
+  {
+    "path": "scene03-compare.mp4",
+    "source_image": "scene03-comparison-blue.png",
+    "duration": 10.0,
+    "frames": 300,
+    "size_bytes": 1699226,
+    "sha256": "0993e01aa177fe62f539fd13198ee50f11dcfe1bbc4151155481c6f7378cce52",
+    "independent_layers": "compare",
+    "color_grade": "continuous per-frame palette shift",
+    "render_seconds": 17.9
+  },
+  {
+    "path": "scene04-reveal.mp4",
+    "source_image": "scene04-behind-scenes.png",
+    "duration": 10.0,
+    "frames": 300,
+    "size_bytes": 1691607,
+    "sha256": "bb3c9a84f898067ee268f04ab0c33ef4152f76e656cb8fef9debd6b39167b469",
+    "independent_layers": "reveal",
+    "color_grade": "continuous per-frame palette shift",
+    "render_seconds": 18.64
+  },
+  {
+    "path": "scene05-reset.mp4",
+    "source_image": "scene05-small-wins.png",
+    "duration": 10.0,
+    "frames": 300,
+    "size_bytes": 1564044,
+    "sha256": "492aab06c2da9ec51e1a7a547218c6992ac4e7baf358f41fa03177f29f8618c7",
+    "independent_layers": "reset",
+    "color_grade": "continuous per-frame palette shift",
+    "render_seconds": 18.29
+  },
+  {
+    "path": "scene06-close.mp4",
+    "source_image": "scene06-own-journey.png",
+    "duration": 10.0,
+    "frames": 300,
+    "size_bytes": 2582378,
+    "sha256": "46be0ffa96674f484e46bc30ee19801549664e44092813ad16e6de38b6f5748d",
+    "independent_layers": "close",
+    "color_grade": "continuous per-frame palette shift",
+    "render_seconds": 18.51
+  }
+]

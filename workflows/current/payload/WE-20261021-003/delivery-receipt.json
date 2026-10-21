@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261021-003",
+  "status": "delivered_locally",
+  "master": {
+    "name": "social-media-comparison-60s-9x16.mp4",
+    "local_path": "delivery/social-media-comparison-60s-9x16.mp4",
+    "mime_type": "video/mp4",
+    "size_bytes": 29372273,
+    "md5": "d1278e8f8bdd3c12538e2e01256923a7",
+    "sha256": "efe4fa1c455e9f9c8557f0cc725a98411341ec67ec96fe3380d3910a2123a518",
+    "duration_seconds": 60.0,
+    "resolution": "1080x1920",
+    "fps": 30,
+    "video": "H.264 High, yuv420p",
+    "audio": "AAC stereo, 48 kHz",
+    "full_decode": true,
+    "faststart": true
+  },
+  "timeline": {
+    "local_path": "second-by-second.csv",
+    "rows": 60,
+    "seconds": "0–59",
+    "word_level_alignment": "approximate; no ASR or forced alignment"
+  },
+  "recovery": null,
+  "presentation_tool_succeeded": true,
+  "remote_checksum_verified": false,
+  "style_policy_verified": true,
+  "platform_receipts": {},
+  "complete": false,
+  "note": "Local workspace delivery. No cloud upload or remote checksum was claimed.",
+  "presentation_target": "Arena workspace file viewer"
+}

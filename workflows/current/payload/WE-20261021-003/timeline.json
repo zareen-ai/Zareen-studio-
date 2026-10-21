@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "fps": 30,
+  "duration": 60.0,
+  "shots": [
+    {
+      "name": "01-scroll-hook",
+      "start": 0.0,
+      "end": 10.0,
+      "path": "scene01-hook.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.07,
+        0.16,
+        0.93,
+        0.95
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.036,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.28
+      },
+      "sha256": "34fbc789335e8f187d105afabeb4582c1255dc1934c769318a4d7056b1ee510e"
+    },
+    {
+      "name": "02-highlight-feed",
+      "start": 10.0,
+      "end": 20.0,
+      "path": "scene02-feed.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.07,
+        0.18,
+        0.93,
+        0.96
+      ],
+      "transition": "depth_push",
+      "camera": {
+        "z_strength": 0.042,
+        "direction": -1,
+        "vertical_drift": -5,
+        "roll_degrees": 0.34
+      },
+      "sha256": "a4e24cc844fc1ca3b10138ac7ebaa36c383c840ee8419ba71cd66dcc718150b9"
+    },
+    {
+      "name": "03-comparison-dip",
+      "start": 20.0,
+      "end": 30.0,
+      "path": "scene03-compare.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.06,
+        0.18,
+        0.94,
+        0.95
+      ],
+      "transition": "diagonal_whip",
+      "camera": {
+        "z_strength": 0.04,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.32
+      },
+      "sha256": "0993e01aa177fe62f539fd13198ee50f11dcfe1bbc4151155481c6f7378cce52"
+    },
+    {
+      "name": "04-behind-the-scenes",
+      "start": 30.0,
+      "end": 40.0,
+      "path": "scene04-reveal.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.07,
+        0.18,
+        0.93,
+        0.95
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.033,
+        "direction": -1,
+        "vertical_drift": -3,
+        "roll_degrees": 0.26
+      },
+      "sha256": "bb3c9a84f898067ee268f04ab0c33ef4152f76e656cb8fef9debd6b39167b469"
+    },
+    {
+      "name": "05-small-wins-reset",
+      "start": 40.0,
+      "end": 50.0,
+      "path": "scene05-reset.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.07,
+        0.17,
+        0.93,
+        0.95
+      ],
+      "transition": "depth_push",
+      "camera": {
+        "z_strength": 0.038,
+        "direction": 1,
+        "vertical_drift": -4,
+        "roll_degrees": 0.3
+      },
+      "sha256": "492aab06c2da9ec51e1a7a547218c6992ac4e7baf358f41fa03177f29f8618c7"
+    },
+    {
+      "name": "06-own-journey-close",
+      "start": 50.0,
+      "end": 60.0,
+      "path": "scene06-close.mp4",
+      "motion_kind": "independent_layers",
+      "depth_rect": [
+        0.07,
+        0.14,
+        0.93,
+        0.93
+      ],
+      "transition": "feathered_cut",
+      "camera": {
+        "z_strength": 0.03,
+        "direction": -1,
+        "vertical_drift": -3,
+        "roll_degrees": 0.24
+      },
+      "sha256": "46be0ffa96674f484e46bc30ee19801549664e44092813ad16e6de38b6f5748d"
+    }
+  ],
+  "titles": [
+    {
+      "start": 0.25,
+      "end": 9.5,
+      "kicker": "SCROLL KARTE HI",
+      "title": "APNI LIFE\nCHHOTI?",
+      "sub": "Ek second ruko.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.045,
+      "size": 82,
+      "max_width": 0.88,
+      "headline_rgb": [
+        255,
+        246,
+        222
+      ],
+      "support_rgb": [
+        235,
+        226,
+        255
+      ]
+    },
+    {
+      "start": 10.3,
+      "end": 19.5,
+      "kicker": "FEED PAR DEKHO",
+      "title": "TRIP. PROMOTION.\nDREAM HOME.",
+      "sub": "Sab kuch perfect?",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.045,
+      "size": 75,
+      "max_width": 0.9
+    },
+    {
+      "start": 20.3,
+      "end": 29.5,
+      "kicker": "UNKE KUCH SECONDS",
+      "title": "TUMHARI POORI\nKAHANI",
+      "sub": "Fair comparison nahi.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.045,
+      "size": 77,
+      "max_width": 0.9
+    },
+    {
+      "start": 30.3,
+      "end": 39.5,
+      "kicker": "EK POST",
+      "title": "POORI KAHANI\nNAHI HOTI",
+      "sub": "It can be real—and incomplete.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.045,
+      "size": 77,
+      "max_width": 0.9
+    },
+    {
+      "start": 40.3,
+      "end": 49.5,
+      "kicker": "SCROLL ROKO",
+      "title": "3 CHOTI\nWINS",
+      "sub": "Apni progress bhi dekho.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.045,
+      "size": 82,
+      "max_width": 0.9
+    },
+    {
+      "start": 50.3,
+      "end": 59.55,
+      "kicker": "YAAD RAKHO",
+      "title": "TUM LATE\nNAHI HO",
+      "sub": "Your next scene is yours.",
+      "position": "top",
+      "anchor_x": 0.5,
+      "anchor_y": 0.045,
+      "size": 84,
+      "max_width": 0.9
+    }
+  ],
+  "captions": [],
+  "voice_clips": [
+    {
+      "path": "media/voiceover.mp3",
+      "start": 0.2,
+      "end": 56.16,
+      "speed": 1.0,
+      "case_origin": false,
+      "voice_profile": "voice-01 — user-selected feminine Pakistani Urdu",
+      "sha256": "bb862bd375db7d0b6c97f5484940b3fad33dc7ba33ed24fd5ddba9b366b784ac"
+    }
+  ],
+  "note": "60-second vertical color-journey short on social-media comparison. Six ten-second scenes; dynamic per-frame palette shifts, independent vector layers, original music/SFX and selected feminine Urdu-English narration. Fictional protagonist, no user likeness."
+}

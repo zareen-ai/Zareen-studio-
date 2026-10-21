@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261021-003",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "technical_pass": true,
+  "visual_review_approved": true,
+  "caption_policy_pass": true,
+  "checks": {
+    "file_exists": true,
+    "h264_high_yuv420p": true,
+    "1080x1920_30fps": true,
+    "aac_stereo_48k": true,
+    "full_decode": true,
+    "faststart": true,
+    "frame_count": true,
+    "no_sampled_black_frames": true,
+    "decoded_audio_present": true,
+    "no_sample_clipping": true,
+    "render_receipt_matches": true,
+    "approved_caption_policy": true
+  },
+  "limitations": [
+    "Full decode and samples are not an independent human listening test.",
+    "Pixel changes alone cannot certify independent subject motion or aesthetic quality."
+  ],
+  "path": "/home/user/Zareen-studio-/workflows/current/payload/WE-20261021-003/delivery/social-media-comparison-60s-9x16.mp4",
+  "size_bytes": 29372273,
+  "sha256": "efe4fa1c455e9f9c8557f0cc725a98411341ec67ec96fe3380d3910a2123a518",
+  "md5": "d1278e8f8bdd3c12538e2e01256923a7",
+  "decode_error": "",
+  "frames": 1800,
+  "samples": [
+    {
+      "time": 1.8,
+      "file": "reviews/encoded/shot-00-0.jpg"
+    },
+    {
+      "time": 5.2,
+      "file": "reviews/encoded/shot-00-1.jpg"
+    },
+    {
+      "time": 8.6,
+      "file": "reviews/encoded/shot-00-2.jpg"
+    },
+    {
+      "time": 11.8,
+      "file": "reviews/encoded/shot-01-0.jpg"
+    },
+    {
+      "time": 15.2,
+      "file": "reviews/encoded/shot-01-1.jpg"
+    },
+    {
+      "time": 18.6,
+      "file": "reviews/encoded/shot-01-2.jpg"
+    },
+    {
+      "time": 21.8,
+      "file": "reviews/encoded/shot-02-0.jpg"
+    },
+    {
+      "time": 25.2,
+      "file": "reviews/encoded/shot-02-1.jpg"
+    },
+    {
+      "time": 28.6,
+      "file": "reviews/encoded/shot-02-2.jpg"
+    },
+    {
+      "time": 31.8,
+      "file": "reviews/encoded/shot-03-0.jpg"
+    },
+    {
+      "time": 35.2,
+      "file": "reviews/encoded/shot-03-1.jpg"
+    },
+    {
+      "time": 38.6,
+      "file": "reviews/encoded/shot-03-2.jpg"
+    },
+    {
+      "time": 41.8,
+      "file": "reviews/encoded/shot-04-0.jpg"
+    },
+    {
+      "time": 45.2,
+      "file": "reviews/encoded/shot-04-1.jpg"
+    },
+    {
+      "time": 48.6,
+      "file": "reviews/encoded/shot-04-2.jpg"
+    },
+    {
+      "time": 51.8,
+      "file": "reviews/encoded/shot-05-0.jpg"
+    },
+    {
+      "time": 55.2,
+      "file": "reviews/encoded/shot-05-1.jpg"
+    },
+    {
+      "time": 58.6,
+      "file": "reviews/encoded/shot-05-2.jpg"
+    }
+  ],
+  "sample_peak_dbfs": -0.73,
+  "rms_dbfs": -17.32,
+  "audio_listening_scope": "Automated full-stream decode and peak/RMS checks passed; no human listening or word-level ASR/forced alignment was performed. The script-to-scene alignment was reviewed; per-second word cues are approximate."
+}

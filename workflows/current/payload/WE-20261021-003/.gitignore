@@ -1,0 +1,7 @@
+media/*.mp4
+media/*.wav
+delivery/*.mp4
+delivery/*.zip
+reviews/
+__pycache__/
+*.log

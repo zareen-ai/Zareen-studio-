@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261021-003",
+  "style_id": "premium-motion-editing",
+  "policy_id": "wf05-clean-editorial-20261015",
+  "subtitle_mode": "off",
+  "caption_pills": false,
+  "word_highlighting": false,
+  "frames": 1800,
+  "duration": 60.0,
+  "size": 29372273,
+  "sha256": "efe4fa1c455e9f9c8557f0cc725a98411341ec67ec96fe3380d3910a2123a518",
+  "input_fingerprint": "e08c09709f8fd7c6851936681d2550fce0327113adbb5ec8c2f91f9b809be6ac",
+  "source_hashes": {
+    "scene01-hook.mp4": "34fbc789335e8f187d105afabeb4582c1255dc1934c769318a4d7056b1ee510e",
+    "scene02-feed.mp4": "a4e24cc844fc1ca3b10138ac7ebaa36c383c840ee8419ba71cd66dcc718150b9",
+    "scene03-compare.mp4": "0993e01aa177fe62f539fd13198ee50f11dcfe1bbc4151155481c6f7378cce52",
+    "scene04-reveal.mp4": "bb3c9a84f898067ee268f04ab0c33ef4152f76e656cb8fef9debd6b39167b469",
+    "scene05-reset.mp4": "492aab06c2da9ec51e1a7a547218c6992ac4e7baf358f41fa03177f29f8618c7",
+    "scene06-close.mp4": "46be0ffa96674f484e46bc30ee19801549664e44092813ad16e6de38b6f5748d"
+  },
+  "layout_boxes": [
+    {
+      "index": 0,
+      "box": [
+        302,
+        86,
+        778,
+        501
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    },
+    {
+      "index": 1,
+      "box": [
+        143,
+        86,
+        936,
+        483
+      ],
+      "font_base": 75.0,
+      "position": "top"
+    },
+    {
+      "index": 2,
+      "box": [
+        179,
+        86,
+        900,
+        489
+      ],
+      "font_base": 77.0,
+      "position": "top"
+    },
+    {
+      "index": 3,
+      "box": [
+        216,
+        86,
+        863,
+        491
+      ],
+      "font_base": 77.0,
+      "position": "top"
+    },
+    {
+      "index": 4,
+      "box": [
+        324,
+        86,
+        756,
+        503
+      ],
+      "font_base": 82.0,
+      "position": "top"
+    },
+    {
+      "index": 5,
+      "box": [
+        285,
+        86,
+        795,
+        506
+      ],
+      "font_base": 84.0,
+      "position": "top"
+    }
+  ],
+  "elapsed_seconds": 164.32,
+  "output": "/home/user/Zareen-studio-/workflows/current/payload/WE-20261021-003/delivery/social-media-comparison-60s-9x16.mp4",
+  "status": "encoded_only_not_delivered"
+}

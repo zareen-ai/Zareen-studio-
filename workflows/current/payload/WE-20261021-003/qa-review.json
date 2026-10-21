@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "WE-20261021-003",
+  "approved_for_delivery": true,
+  "actual_motion_reviewed": true,
+  "subject_edges_intact": true,
+  "typography_legible": true,
+  "no_rejected_bottom_pills": true,
+  "no_social_tags_or_end_card": true,
+  "narration_scene_alignment_reviewed": true,
+  "factual_claims_reviewed": true,
+  "human_listening_performed": false,
+  "word_level_asr_performed": false,
+  "pending_checks": [
+    "Human listening / word-level ASR not performed; per-second narration cues are approximate, not forced-aligned."
+  ],
+  "audio_listening_scope": "Automated full-stream decode and peak/RMS checks passed; no human listening or word-level ASR/forced alignment was performed. The script-to-scene alignment was reviewed; per-second word cues are approximate."
+}

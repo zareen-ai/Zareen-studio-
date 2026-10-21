@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "style_id": "premium-motion-editing",
+  "project_id": "WE-20261021-003",
+  "topic": "Hum social media wali life ko apni life se kyun compare karte hain?",
+  "mode": "new_production",
+  "timeline": "timeline.json",
+  "media_dir": "media",
+  "audio_mix": "media/mix.wav",
+  "output": "delivery/social-media-comparison-60s-9x16.mp4",
+  "font_dir": null,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "typography": {
+    "subtitle_mode": "off",
+    "plain_subtitles_requested": false,
+    "caption_pills": false,
+    "word_highlighting": false
+  },
+  "rights_status": "own",
+  "script_status": "approved",
+  "motion_review": "approved",
+  "policy_id": "wf05-clean-editorial-20261015"
+}

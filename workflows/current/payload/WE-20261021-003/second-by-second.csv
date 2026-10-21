@@ -1,0 +1,61 @@
+second,shot,narration_beat,visual_motion,palette
+0,01-scroll-hook,اسکرول کرتے ہوئے,Hook lands in deep indigo.,indigo
+1,01-scroll-hook,کبھی اپنی,Phone glow pulses once.,indigo/teal
+2,01-scroll-hook,life چھوٹی لگنے,Teal reflection crosses the window.,teal
+3,01-scroll-hook,لگی؟ ایک,First card lifts at frame edge.,violet
+4,01-scroll-hook,second رکو—تم اپنی,Coral accent enters the feed.,cyan
+5,01-scroll-hook,پوری کہانی,Slow push-in begins.,violet/coral
+6,01-scroll-hook,کو کسی اور,Color ribbon shifts violet to cyan.,coral
+7,01-scroll-hook,کے چند best,Tiny glint tracks the phone edge.,teal
+8,01-scroll-hook,seconds سے,Feed lights brighten gently.,indigo/coral
+9,01-scroll-hook,تول رہے ہو۔,Cut prepares with coral sweep.,coral/teal
+10,02-highlight-feed,کسی کی,A trip card rises in coral.,coral
+11,02-highlight-feed,trip، promotion، dream,Fuchsia edge glow travels.,fuchsia
+12,02-highlight-feed,home؛ feed,Promotion frame slides upward.,cyan
+13,02-highlight-feed,پر سب perfect,Cyan wash crosses background.,coral/gold
+14,02-highlight-feed,لگتا ہے۔ مگر,Dream-home panel catches gold.,fuchsia
+15,02-highlight-feed,posts میں,Cards drift at different speeds.,teal
+16,02-highlight-feed,کام، تھکن، انتظار،,Magenta-to-blue color turn.,coral
+17,02-highlight-feed,غلطیاں کہاں,A small flash glints on glass.,cyan/gold
+18,02-highlight-feed,دکھتی ہیں؟ اچھی,Feed reaches vivid peak.,fuchsia/coral
+19,02-highlight-feed,photo fake,Saturation eases toward blue.,coral→blue
+20,03-comparison-dip,نہیں ہوتی—بس پوری,Room cools to blue-grey.,cool blue
+21,03-comparison-dip,کہانی نہیں ہوتی۔,Mirror seam appears softly.,blue-grey
+22,03-comparison-dip,retakes، smile,Bright panels remain saturated.,slate
+23,03-comparison-dip,کے پیچھے کا,Reflection slows against camera.,slate/lavender
+24,03-comparison-dip,مشکل دن،,Blue ripple expands from phone.,blue
+25,03-comparison-dip,success تک کے,"Face stays natural, background cools.",violet
+26,03-comparison-dip,چھوٹے steps,A violet highlight pulses once.,cool slate
+27,03-comparison-dip,screen پر نہیں,Cards drift farther from subject.,blue-grey
+28,03-comparison-dip,دکھتے۔ اگلی بار,Color drains another step.,slate
+29,03-comparison-dip,دل کہے,Hold the comparison question.,slate→neutral
+30,04-behind-the-scenes,“میں پیچھے ہوں”،,Wider scene begins to reveal.,neutral slate
+31,04-behind-the-scenes,scroll pause,Crop guides draw into corners.,coral frame
+32,04-behind-the-scenes,کرو۔ پچھلے مہینے,Phone frame glows coral.,slate/teal
+33,04-behind-the-scenes,کی تین,Cup image gets a warm edge.,warm cup gold
+34,04-behind-the-scenes,چھوٹی wins یاد,Focus line sweeps across screen.,cyan focus
+35,04-behind-the-scenes,کرو—ایک کام جو,"Small retake flash, no text.",coral flash
+36,04-behind-the-scenes,پہلے مشکل,Frame widens to show context.,natural neutral
+37,04-behind-the-scenes,تھا، ایک دن,Slate and coral split resolves.,coral/slate
+38,04-behind-the-scenes,جو تم,Guide corners begin to dissolve.,neutral
+39,04-behind-the-scenes,نے گزارا، ایک,Neutral-to-amber transition.,neutral→amber
+40,05-small-wins-reset,کوشش جسے,Phone rests face-down.,amber
+41,05-small-wins-reset,کسی نے like,Morning gold enters from left.,warm cream
+42,05-small-wins-reset,نہیں کیا۔ اپنی,First small-win dot appears.,gold
+43,05-small-wins-reset,progress کو,Notebook page catches light.,sage
+44,05-small-wins-reset,کسی اور کی,Sage green moves across the wall.,amber
+45,05-small-wins-reset,timeline سے,Second progress dot pulses.,sage/gold
+46,05-small-wins-reset,مت ناپو۔ inspiration,Camera drifts toward the notebook.,cream
+47,05-small-wins-reset,لو، اپنی,Third dot joins the line.,sunlit gold
+48,05-small-wins-reset,value کا ruler,Amber settles into cream.,amber
+49,05-small-wins-reset,نہیں۔ تم late,Golden lift into closing scene.,gold→coral
+50,06-own-journey-close,نہیں ہو۔,Garden opens in golden hour.,gold
+51,06-own-journey-close,تم اپنی story,Coral flare crosses the sky.,coral
+52,06-own-journey-close,کے اپنے,Teal accent lights the garden edge.,teal
+53,06-own-journey-close,chapter میں ہو—اور,"Slow, steady camera push.",gold/indigo
+54,06-own-journey-close,next scene,Soft gold halo around sunlight.,warm coral
+55,06-own-journey-close,ابھی تمہارا ہے۔,Edge sparks drift near borders.,gold
+56,06-own-journey-close,Voiceover ends at 56.16s; breathe,Indigo shadows balance warm skin.,teal/gold
+57,06-own-journey-close,Final headline holds; score carries,"Color reaches full, rich saturation.",sunset coral
+58,06-own-journey-close,Golden-hour image settles,Closing headline holds cleanly.,gold
+59,06-own-journey-close,End on the image—no generic end card,"Final scene settles, no end card.",full warm color

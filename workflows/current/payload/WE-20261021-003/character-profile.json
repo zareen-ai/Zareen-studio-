@@ -1,0 +1,14 @@
+{
+  "character_id": "fictional-social-feed-protagonist",
+  "fictional": true,
+  "description": "Fictional adult South Asian woman, late twenties, ink-blue kurta and mustard-yellow dupatta, consistent across six scenes; not based on the user or any real person.",
+  "visual_continuity": "Keep the same fictional adult face, hairstyle and clothing; phone and textless social photo cards are recurring props.",
+  "palette_arc": [
+    "indigo/teal",
+    "coral/fuchsia/cyan",
+    "cool comparison blue",
+    "split slate and coral",
+    "amber/cream/sage",
+    "gold/coral/indigo"
+  ]
+}

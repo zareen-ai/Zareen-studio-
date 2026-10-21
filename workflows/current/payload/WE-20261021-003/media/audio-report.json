@@ -1,0 +1,17 @@
+{
+  "voice_source": "media/voiceover.mp3",
+  "voice_duration_seconds": 55.96,
+  "voice_start_seconds": 0.2,
+  "voice_end_seconds": 56.16,
+  "mix_duration_seconds": 60.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "tempo_bpm": 96.0,
+  "voice_rms_before_dbfs": -22.33,
+  "voice_gain_db": 4.83,
+  "music_rms_dbfs_before_ducking": -33.7,
+  "mix_peak_dbfs": -0.72,
+  "music_and_sfx": "Original synthesized cinematic pad, 96 BPM bass/kick pulse, restrained claps/high-hats, sidechain ducking, transition sweeps and chimes; no third-party audio.",
+  "time_stretch": false,
+  "human_listening_performed": false
+}

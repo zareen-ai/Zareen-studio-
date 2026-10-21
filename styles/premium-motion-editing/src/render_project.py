@@ -56,6 +56,7 @@ class Compositor:
         ft=self.font(size)
         if max(ft.getlength(x) for x in lines)>maxwidth:raise PolicyError(f'Title {index} cannot fit readably; rewrite/line-break it rather than shrinking further.')
         body=self.font(29,'italic');kicker=self.font(29,'italic');kick=d.get('kicker','');sub=d.get('sub','')
+        headline_rgb=tuple(d.get('headline_rgb',INK));support_rgb=tuple(d.get('support_rgb',headline_rgb))
         sublines=self.wrap(sub,body,maxwidth) if sub else []
         if len(lines)>2 or len(sublines)>2:raise PolicyError('Keep integrated text concise: maximum two headline and two connective lines.')
         kh=39*SCALE if kick else 0
@@ -64,13 +65,13 @@ class Compositor:
         height=int(kh+sum(heights)+(len(lines)-1)*10*SCALE+(20*SCALE if sublines else 0)+len(sublines)*35*SCALE+30*SCALE)
         im=Image.new('RGBA',(width,height));dr=ImageDraw.Draw(im);y=7*SCALE
         if kick:
-            bb=kicker.getbbox(kick);dr.text(((width-kicker.getlength(kick))/2,y-bb[1]),kick,font=kicker,fill=(*INK,240));y+=kh
+            bb=kicker.getbbox(kick);dr.text(((width-kicker.getlength(kick))/2,y-bb[1]),kick,font=kicker,fill=(*support_rgb,245));y+=kh
         for j,line in enumerate(lines):
             bb=ft.getbbox(line);x=(width-ft.getlength(line))/2;ty=y-bb[1]
             for z in range(13,0,-1):dr.text((x+z*.67,ty+z*.95),line,font=ft,fill=(123-z*2,105-z*2,179-z*2,245))
-            dr.text((x,ty),line,font=ft,fill=(*INK,255));y+=heights[j]+10*SCALE
+            dr.text((x,ty),line,font=ft,fill=(*headline_rgb,255));y+=heights[j]+10*SCALE
         for line in sublines:
-            bb=body.getbbox(line);y+=3*SCALE;dr.text(((width-body.getlength(line))/2,y-bb[1]),line,font=body,fill=(*INK,245));y+=32*SCALE
+            bb=body.getbbox(line);y+=3*SCALE;dr.text(((width-body.getlength(line))/2,y-bb[1]),line,font=body,fill=(*support_rgb,245));y+=32*SCALE
         pos=d.get('position','top')
         ax=float(d.get('anchor_x',500/720 if pos=='right' else .5))
         ay=float(d.get('anchor_y',{'top':145/1280,'bottom':888/1280,'right':766/1280}[pos]))
