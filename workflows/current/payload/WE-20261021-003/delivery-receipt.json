@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "WE-20261021-003",
-  "status": "delivered_locally",
+  "status": "delivered_and_drive_verified",
   "master": {
     "name": "social-media-comparison-60s-9x16.mp4",
     "local_path": "delivery/social-media-comparison-60s-9x16.mp4",
@@ -15,7 +15,13 @@
     "video": "H.264 High, yuv420p",
     "audio": "AAC stereo, 48 kHz",
     "full_decode": true,
-    "faststart": true
+    "faststart": true,
+    "drive_file_id": "1OZW98t84OFg_vFquexfKLOm_ygx4htT2",
+    "web_view_link": "https://drive.google.com/file/d/1OZW98t84OFg_vFquexfKLOm_ygx4htT2/view?usp=drivesdk",
+    "direct_download_url": "https://drive.google.com/uc?export=download&id=1OZW98t84OFg_vFquexfKLOm_ygx4htT2",
+    "independent_get_verified": true,
+    "remote_size_bytes": 29372273,
+    "remote_md5": "d1278e8f8bdd3c12538e2e01256923a7"
   },
   "timeline": {
     "local_path": "second-by-second.csv",
@@ -25,10 +31,20 @@
   },
   "recovery": null,
   "presentation_tool_succeeded": true,
-  "remote_checksum_verified": false,
+  "remote_checksum_verified": true,
   "style_policy_verified": true,
-  "platform_receipts": {},
+  "platform_receipts": {
+    "google_drive": {
+      "file_id": "1OZW98t84OFg_vFquexfKLOm_ygx4htT2",
+      "web_view_link": "https://drive.google.com/file/d/1OZW98t84OFg_vFquexfKLOm_ygx4htT2/view?usp=drivesdk",
+      "access": "anyone with the link: reader",
+      "allow_file_discovery": false,
+      "metadata_get_verified": true,
+      "remote_size_bytes": 29372273,
+      "remote_md5": "d1278e8f8bdd3c12538e2e01256923a7"
+    }
+  },
   "complete": false,
-  "note": "Local workspace delivery. No cloud upload or remote checksum was claimed.",
+  "note": "Public link access was confirmed and Drive metadata size/MD5 matches the local master. A separate recovery copy was not created; complete remains false under the recovery gate.",
   "presentation_target": "Arena workspace file viewer"
 }

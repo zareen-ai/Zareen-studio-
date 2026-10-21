@@ -3,6 +3,8 @@
 - **Master:** `delivery/social-media-comparison-60s-9x16.mp4`
 - **Second-by-second timeline:** `second-by-second.csv` (60 rows, seconds 0–59)
 - **Script:** `SCRIPT.md`
+- **Google Drive view:** [Open the video](https://drive.google.com/file/d/1OZW98t84OFg_vFquexfKLOm_ygx4htT2/view?usp=drivesdk)
+- **Direct download:** [Download the MP4](https://drive.google.com/uc?export=download&id=1OZW98t84OFg_vFquexfKLOm_ygx4htT2)
 
 ## Master checks
 
@@ -10,6 +12,7 @@
 - H.264 High / yuv420p video, AAC stereo audio at 48 kHz, fast-start MP4
 - Full-stream decode passed; all 18 sampled frames decoded; no sampled black frames or audio clipping
 - Technical verifier: **PASS**; caption policy: **PASS**
+- Google Drive reader link is enabled; file discovery is disabled; remote MD5 and size match the local master
 - Master size: 29,372,273 bytes
 - SHA-256: `efe4fa1c455e9f9c8557f0cc725a98411341ec67ec96fe3380d3910a2123a518`
 
