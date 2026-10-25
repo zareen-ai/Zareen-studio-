@@ -644,6 +644,14 @@ window.addEventListener("keydown", (e) => {
   else if (e.key === "ArrowLeft") seek(Math.max(0, t - 1));
 });
 
+/* ---------- first-click gate ---------- */
+const gate = $("gate");
+$("gateBtn").addEventListener("click", () => {
+  gate.classList.add("off");
+  seek(0);
+  setPlaying(true);
+});
+
 /* ---------- boot ---------- */
 buildScene(0);
 render();
