@@ -60,7 +60,14 @@ app/assets/vo/      narration mp3s — vo-NN (deck), v2-NN (60s film), v1-NN (pu
 `Space` play/pause · `R` restart · `←`/`→` ±1s (film) ya slide (deck) · `V` narration · `M` music ·
 `F` fullscreen · `P` cinematic mode (deck) · `0–9` deck mein jump.
 
+## Cinematic layer (v3)
+
+- 4 generated 9:16 backgrounds (`assets/img/bg1–4.jpg`) Ken Burns crossfade ke saath
+- Handheld camera: per-scene push/drift/rise + impact shake slams par
+- Gold dust particles, beat shockwaves, light sweep har cut par
+- Word-sync captions (Roman Urdu) + progress bar
+- `assets/vo/v2-full.mp3` — poori 60s narration ek single track (CapCut edit ke liye)
+
 ## Baqi kaam (agli baar)
 
 - Deck slides 11–38 ke voiceover clips (`vo-11.mp3` … `vo-38.mp3`) — abhi 1–10 tayar hain.
-- Chaaho to poori 60s narration ek single track mein (`v2-full.mp3`) — CapCut edit ke liye aasan.

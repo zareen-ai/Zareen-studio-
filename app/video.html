@@ -18,7 +18,15 @@
   <!-- vertical 9:16 stage -->
   <div class="frame" id="frame">
     <div class="screen" id="screen">
-      <div class="layers" id="layers"></div>
+      <div class="bgs" aria-hidden="true"><div class="bg" id="bgA"></div><div class="bg" id="bgB"></div></div>
+      <div class="parts" id="parts" aria-hidden="true"></div>
+      <div class="cam" id="cam">
+        <div class="layers" id="layers"></div>
+      </div>
+      <div class="caps" id="caps" aria-hidden="true">
+        <div class="cap-line" id="capLine"></div>
+        <div class="cap-bar"><i id="capBar"></i></div>
+      </div>
       <div class="scr-grain" aria-hidden="true"></div>
       <div class="scr-vig" aria-hidden="true"></div>
       <div class="scr-scan" aria-hidden="true"></div>
@@ -48,7 +56,10 @@
         <div class="p-kick">60 SECOND FILM</div>
         <h1 class="p-title">6 Mahine Ki<br><span>Khamosh Tabdeeli</span></h1>
       </div>
-      <a class="deck-link" href="./index.html">Poora deck →</a>
+      <div class="p-links">
+        <a class="deck-link" href="./index.html">Poora deck →</a>
+        <a class="deck-link" href="./assets/vo/v2-full.mp3" download>Narration track ↓</a>
+      </div>
     </div>
     <div class="p-sub">Second-by-second script · frame-accurate · vertical (Reels / Shorts / TikTok)</div>
     <div class="beats" id="beats"></div>

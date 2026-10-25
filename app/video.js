@@ -1,21 +1,30 @@
 /* =========================================================
-   60-SECOND VERTICAL FILM — v2 (naya script)
-   Structure: DARD → ILZAM → SAUDA → QAID → HISAB → NAQSHA → SAWAL → CTA
-   Har scene frame-accurate timed hai.
+   60-SECOND VERTICAL FILM — v3 (cinematic cut)
+   DARD → ILZAAM → SAUDA → QAID → HISAB → NAQSHA → SAWAL → CTA
+   + Ken Burns backgrounds, handheld camera, particles,
+     beat shockwaves, word-sync captions, light sweep.
    ========================================================= */
 
 const DUR = 60;
 const FPS = 24;
-const layersRoot = document.getElementById("layers");
-const tcEl = document.getElementById("tc");
-const sceneTag = document.getElementById("sceneTag");
-const beatsEl = document.getElementById("beats");
-const scrub = document.getElementById("scrub");
-const scrubFill = document.getElementById("scrubFill");
-const scrubHead = document.getElementById("scrubHead");
-const readout = document.getElementById("readout");
+const $ = (id) => document.getElementById(id);
+const layersRoot = $("layers");
+const cam = $("cam");
+const bgs = [$("bgA"), $("bgB")];
+const partsRoot = $("parts");
+const screen_ = $("screen");
+const capLine = $("capLine");
+const capBar = $("capBar");
+const capsWrap = $("caps");
+const tcEl = $("tc");
+const sceneTag = $("sceneTag");
+const beatsEl = $("beats");
+const scrub = $("scrub");
+const scrubFill = $("scrubFill");
+const scrubHead = $("scrubHead");
+const readout = $("readout");
 const transport = document.querySelector(".transport");
-const btnPlay = document.getElementById("btnPlay");
+const btnPlay = $("btnPlay");
 
 const E = (tag, cls, html) => {
   const n = document.createElement(tag);
@@ -24,20 +33,31 @@ const E = (tag, cls, html) => {
   return n;
 };
 const L = (t, s, anim, html, cls = "") => ({ t, s, anim, html, cls });
+const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+
+/* ---------- captions: [localStart, localEnd, text] ---------- */
+const capChunks = (arr) =>
+  arr.map(([t, s, text]) => {
+    const words = text.split(" ");
+    const per = (s - t) / words.length;
+    return { t, s, words: words.map((w, i) => ({ w, at: t + i * per, hl: w.includes("*") })) };
+  });
 
 /* =========================================================
    SCENES
    ========================================================= */
 const SCENES = [
   {
-    at: 0.0,
-    to: 7.0,
-    vo: "v2-01",
+    at: 0.0, to: 7.0, vo: "v2-01", bg: "bg1", camT: "push",
+    tag: "SC 01 · DARD", head: "0.0 – 7.0s",
     line: "Tumne 100 videos dekhi hongi. Aur aaj bhi wahi ho jahan ek saal pehle the.",
-    tag: "SC 01 · DARD",
-    head: "0.0 – 7.0s",
     screen: "« 100 videos » → « aur aaj bhi WAHI ho »",
-    shot: "Counter 0→100 race karta hai, phir 'WAHI' pe slam + flash. Background dhundhla, ek akela spotlight.",
+    shot: "Counter 0→100 race, phir WAHI pe slam + flash. Background: dhundhla jungle, ek sun-beam.",
+    subs: capChunks([
+      [0.3, 1.9, "Tumne *100 videos* dekhi hongi."],
+      [2.2, 4.6, "Aur aaj bhi *wahi* ho —"],
+      [4.6, 6.7, "jahan ek saal pehle the."]
+    ]),
     build: () => [
       L(0.1, 1.0, "rise", `<div class="k">Sach suno</div>`, "top"),
       L(0.4, 3.0, "count", `<div class="mono">Tum ne kitni motivation videos dekhi hain?</div><div class="counter" data-count="100" data-dec="0">0</div><div class="mono gold">shayad is se zyada</div>`, "center"),
@@ -46,14 +66,16 @@ const SCENES = [
     ]
   },
   {
-    at: 7.0,
-    to: 14.0,
-    vo: "v2-02",
+    at: 7.0, to: 14.0, vo: "v2-02", bg: "bg1", camT: "drift-l",
+    tag: "SC 02 · ILZAAM", head: "7.0 – 14.0s",
     line: "Ilzaam tumhari mehnat ka nahi. Ilzaam tumhare tareeqe ka hai. Tum motivation dhoondte ho — system nahi banate.",
-    tag: "SC 02 · ILZAAM",
-    head: "7.0 – 14.0s",
     screen: "« ilzaam mehnat ka? » (cross) → « ilzaam TAREEQE ka »",
-    shot: "Pehla lafz aata hai, uspe laal line khinchti hai. Phir gold mein naya lafz slam hota hai. Glitch frame transition.",
+    shot: "Pehla lafz, laal line, glitch-cut, phir gold slam. Camera dheere left drift.",
+    subs: capChunks([
+      [0.3, 2.3, "Ilzaam tumhari *mehnat* ka nahi."],
+      [2.5, 4.5, "Ilzaam tumhare *tareeqe* ka hai."],
+      [4.7, 6.8, "Tum motivation dhoondte ho — *system* nahi banate."]
+    ]),
     build: () => [
       L(0.1, 3.2, "slam", `<div class="big cross" data-hit="2.0">Ilzaam tumhari<br>mehnat ka hai?</div>`, "center"),
       L(3.0, 0.4, "flash", ``, ""),
@@ -62,14 +84,16 @@ const SCENES = [
     ]
   },
   {
-    at: 14.0,
-    to: 21.0,
-    vo: "v2-03",
+    at: 14.0, to: 21.0, vo: "v2-03", bg: "bg2", camT: "drift-r",
+    tag: "SC 03 · SAUDA", head: "14.0 – 21.0s",
     line: "Ek sauda karte hain. Mujhe apne 6 mahine do. Main tumhe wo insaan bana ke doonga jise tum aaine mein dekhna chahte ho.",
-    tag: "SC 03 · SAUDA",
-    head: "14.0 – 21.0s",
-    screen: "« ek SAUDA » → « mujhe apne 6 MAHINE do » → « 180 din »",
-    shot: "Blackout 0.4s. Gold ring expand hoti hai. 'SAUDA' slam. Phir 180 ka counter chhota, neeche.",
+    screen: "« ek SAUDA » → « mujhe apne 6 MAHINE do » → 180 counter",
+    shot: "Blackout 0.4s. Gold ring. Peeche akela aadmi raat ki sadak par — silhouette.",
+    subs: capChunks([
+      [0.3, 1.7, "Ek *sauda* karte hain."],
+      [1.9, 3.5, "Mujhe apne *6 mahine* do."],
+      [3.7, 6.7, "Main tumhe wo insaan bana ke doonga jise tum aaine mein dekhna chahte ho."]
+    ]),
     build: () => [
       L(0.0, 0.5, "black", ``, ""),
       L(0.4, 6.2, "ring", ``, ""),
@@ -79,14 +103,17 @@ const SCENES = [
     ]
   },
   {
-    at: 21.0,
-    to: 28.0,
-    vo: "v2-04",
+    at: 21.0, to: 28.0, vo: "v2-04", bg: "bg2", camT: "slow-push",
+    tag: "SC 04 · QAID", head: "21.0 – 28.0s",
     line: "Shart sirf ek hai. Chhe mahine kisi ko nahi batana. Na story, na wada, na tareef. Khamoshi se kaam karo. Nateeja shor macha dega.",
-    tag: "SC 04 · QAID",
-    head: "21.0 – 28.0s",
-    screen: "« SHART: kisi ko NA batana » → story/announcement/tareef (cross) → « KHAMOSHI se kaam »",
-    shot: "Teen words ek ke baad ek aate hain aur har ek pe laal line. Phir andhera, aur gold mein 'KHAMOSHI'.",
+    screen: "« SHART » → 3 cross → « KHAMOSHI se kaam »",
+    shot: "Teen words, teen laal lines. Phir flash + gold slam. Camera halka push-in.",
+    subs: capChunks([
+      [0.3, 1.5, "*Shart* sirf ek hai."],
+      [1.7, 3.1, "6 mahine *kisi ko nahi batana.*"],
+      [3.3, 4.7, "Na story. Na wada. Na tareef."],
+      [4.9, 6.8, "*Khamoshi* se kaam karo — nateeja shor macha dega."]
+    ]),
     build: () => [
       L(0.1, 2.2, "slam", `<div class="k clay">Shart sirf ek hai</div><div class="gap"></div><div class="big">6 mahine <span class="gold">kisi ko<br>nahi batana.</span></div>`, "top"),
       L(2.4, 0.9, "slam", `<div class="mid cross" data-hit="0.5">Na story</div>`, "bot"),
@@ -97,14 +124,17 @@ const SCENES = [
     ]
   },
   {
-    at: 28.0,
-    to: 35.0,
-    vo: "v2-05",
+    at: 28.0, to: 35.0, vo: "v2-05", bg: "bg3", camT: "push",
+    tag: "SC 05 · HISAB", head: "28.0 – 35.0s",
     line: "Ab hisaab suno. Ek skill chuno. Roz do ghante. Chhe mahine mein teen sau saath ghante. Itne ghante ek degree mein bhi nahi milte.",
-    tag: "SC 05 · HISAB",
-    head: "28.0 – 35.0s",
-    screen: "« 1 skill » « 2 ghante roz » → 2 × 180 = 360 (counter race) → « degree mein bhi nahi »",
-    shot: "Do lines slam hoke side mein chali jati hain, phir beech mein bara counter race karta hai 0 se 360 tak.",
+    screen: "4 rules → 2 × 180 = 360 (counter race)",
+    shot: "Gold-dust background. Counter 0→360 race karta hai, screen ke saath dhadkan tez.",
+    subs: capChunks([
+      [0.3, 1.7, "Ab hisaab suno. Ek *skill* chuno."],
+      [1.9, 3.1, "Roz *do ghante.*"],
+      [3.3, 5.1, "6 mahine mein *360 ghante.*"],
+      [5.3, 6.8, "Itne ghante ek degree mein bhi nahi milte."]
+    ]),
     build: () => [
       L(0.1, 1.4, "slam", `<div class="slams"><div><span>01</span>Ek skill</div><div><span>02</span>Roz 2 ghante</div></div>`, "top"),
       L(1.5, 1.6, "slam", `<div class="slams"><div><span>03</span>Ek waqt</div><div><span>04</span>Ek jagah</div></div>`, "top"),
@@ -113,14 +143,16 @@ const SCENES = [
     ]
   },
   {
-    at: 35.0,
-    to: 42.0,
-    vo: "v2-06",
+    at: 35.0, to: 42.0, vo: "v2-06", bg: "bg3", camT: "drift-l",
+    tag: "SC 06 · NAQSHA", head: "35.0 – 42.0s",
     line: "Saat cheezein badalni hain. Pehchan. Dopamine. Gehra kaam. Jism. Dimagh. Paisa. Aur mahaul. Saat sutoon, ek chhat.",
-    tag: "SC 06 · NAQSHA",
-    head: "35.0 – 42.0s",
-    screen: "7 khane ek-ek karke jalte hain → « 7 sutoon · 1 chhat »",
-    shot: "Grid sequence: har 0.42s ek khana gold hota hai, tick sound. Phir neeche line slam.",
+    screen: "7 khane tick-tick jalte hain → « 7 sutoon · 1 chhat »",
+    shot: "Grid sequence har 0.42s. Tick sync heartbeat se. End pe flash + slam.",
+    subs: capChunks([
+      [0.3, 2.3, "Saat cheezein badalni hain."],
+      [2.5, 4.7, "Pehchan. Dopamine. Gehra kaam. Jism. Dimagh. Paisa. Mahaul."],
+      [4.9, 6.8, "Saat sutoon — *ek chhat.*"]
+    ]),
     build: () => {
       const items = ["Pehchan", "Dopamine", "Gehra Kaam", "Jism", "Dimagh", "Paisa", "Mahaul"];
       return [
@@ -134,14 +166,16 @@ const SCENES = [
     }
   },
   {
-    at: 42.0,
-    to: 51.0,
-    vo: "v2-07",
+    at: 42.0, to: 51.0, vo: "v2-07", bg: "bg3", camT: "still",
+    tag: "SC 07 · SAWAL", head: "42.0 – 51.0s",
     line: "Aur phir ek din, koi poochega — tum badal kaise gaye? Tum muskuraoge. Jawab nahi doge. Kyunke tumhara kaam tumhara jawab ban chuka hoga.",
-    tag: "SC 07 · SAWAL",
-    head: "42.0 – 51.0s",
-    screen: "andhera → « Tum badal kaise gaye? » (type) → « Khamoshi se. » (gold wipe)",
-    shot: "Screen 86% andheri. Sawal type-writer se likha jata hai. 3s pause. Phir jawab gold wipe se aata hai — video ka sabse bara moment.",
+    screen: "andhera → type-writer sawal → gold wipe « Khamoshi se. »",
+    shot: "Video ka sabse quiet moment: dhadkan dheemi, sirf type sound, phir gold wipe.",
+    subs: capChunks([
+      [0.5, 3.4, "Aur phir ek din koi poochega — *tum badal kaise gaye?*"],
+      [3.8, 5.8, "Tum muskuraoge. Jawab nahi doge."],
+      [6.0, 8.7, "Kyunke tumhara *kaam* tumhara jawab ban chuka hoga."]
+    ]),
     build: () => [
       L(0.0, 9.0, "dark", ``, ""),
       L(0.5, 3.0, "type", `<div class="mid" style="opacity:.9">« Tum badal kaise gaye? »</div>`, "top"),
@@ -151,14 +185,17 @@ const SCENES = [
     ]
   },
   {
-    at: 51.0,
-    to: 60.0,
-    vo: "v2-08",
+    at: 51.0, to: 60.0, vo: "v2-08", bg: "bg4", camT: "rise",
+    tag: "SC 08 · CTA", head: "51.0 – 60.0s",
     line: "Yeh video yahin khatam hoti hai. Lekin tumhare 6 mahine ab shuru hote hain. Phone rakho. Ek safha likho. Aur kal subah — uth jana.",
-    tag: "SC 08 · CTA",
-    head: "51.0 – 60.0s",
-    screen: "« video yahan khatam » → « tumhare 6 mahine AB shuru » → CTA card → brand freeze",
-    shot: "Do lines ka contrast. CTA pill bounce ke saath aata hai. Aakhri 1.5s brand frame par freeze — loop ke liye clean cut.",
+    screen: "contrast lines → CTA pill → brand freeze",
+    shot: "Sunrise cliff reveal. Camera upar uthta hai. Aakhri frame loop ke liye clean.",
+    subs: capChunks([
+      [0.3, 2.1, "Yeh video yahin khatam hoti hai."],
+      [2.3, 4.3, "Lekin tumhare *6 mahine* ab shuru hote hain."],
+      [4.5, 6.5, "Phone rakho. Ek safha likho."],
+      [6.7, 8.9, "Aur kal subah — *uth jana.*"]
+    ]),
     build: () => [
       L(0.1, 2.2, "slam", `<div class="big" style="opacity:.55">Yeh video yahan<br>khatam hoti hai.</div>`, "center"),
       L(2.3, 0.4, "flash", ``, ""),
@@ -170,7 +207,7 @@ const SCENES = [
 ];
 
 /* =========================================================
-   SIDE PANEL — second-by-second script
+   SIDE PANEL
    ========================================================= */
 SCENES.forEach((s) => {
   const b = E("div", "beat");
@@ -188,7 +225,26 @@ SCENES.forEach((s) => {
 const beatNodes = [...beatsEl.children];
 
 /* =========================================================
-   AUDIO — narration + synth score
+   PARTICLES + SWEEP (ek baar)
+   ========================================================= */
+for (let i = 0; i < 42; i++) {
+  const p = E("i");
+  const sz = 1 + Math.random() * 2.6;
+  p.style.cssText = `left:${(Math.random() * 100).toFixed(1)}%;width:${sz}px;height:${sz}px;
+    --o:${(0.12 + Math.random() * 0.35).toFixed(2)};--dx:${((Math.random() - 0.5) * 26).toFixed(1)}px;
+    animation-duration:${(7 + Math.random() * 9).toFixed(1)}s;animation-delay:-${(Math.random() * 12).toFixed(1)}s`;
+  partsRoot.appendChild(p);
+}
+const sweepEl = E("div", "scr-sweep");
+screen_.appendChild(sweepEl);
+const fireSweep = () => {
+  sweepEl.classList.remove("go");
+  void sweepEl.offsetWidth;
+  sweepEl.classList.add("go");
+};
+
+/* =========================================================
+   AUDIO
    ========================================================= */
 const VO = {};
 let voiceOn = true;
@@ -227,25 +283,32 @@ function ensureAudio() {
     o.start();
   });
 
-  // heartbeat pulse — tempo scene ke hisaab se
   setInterval(() => {
     if (!musicOn || !playing) return;
-    const tense = t > 42 && t < 51; // reveal ke waqt dhadkan dheemi
+    const quiet = t > 42 && t < 51;
     const t2 = AC.currentTime + 0.02;
     const o = AC.createOscillator();
     o.type = "sine";
-    o.frequency.setValueAtTime(tense ? 78 : 104, t2);
+    o.frequency.setValueAtTime(quiet ? 78 : 104, t2);
     o.frequency.exponentialRampToValueAtTime(44, t2 + 0.14);
     const g = AC.createGain();
-    g.gain.setValueAtTime(tense ? 0.1 : 0.17, t2);
+    g.gain.setValueAtTime(quiet ? 0.09 : 0.17, t2);
     g.gain.exponentialRampToValueAtTime(0.0001, t2 + 0.26);
     o.connect(g);
     g.connect(master);
     o.start(t2);
     o.stop(t2 + 0.3);
+    shockwave(quiet ? 0.06 : 0.12);
   }, 500);
 
   master.gain.linearRampToValueAtTime(musicOn ? 0.13 : 0.0001, AC.currentTime + 1.4);
+}
+
+function shockwave(op) {
+  const s = E("div", "shock");
+  s.style.opacity = op;
+  screen_.appendChild(s);
+  s.addEventListener("animationend", () => s.remove());
 }
 
 function playVo(scene) {
@@ -277,7 +340,32 @@ let sceneIdx = -1;
 let layerEls = [];
 let flashEl = null;
 let lastVoScene = -1;
-const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+let bgFlip = 0;
+let curBg = "";
+
+function setBg(name) {
+  if (!name || name === curBg) return;
+  curBg = name;
+  bgFlip = 1 - bgFlip;
+  const on = bgs[bgFlip];
+  const off = bgs[1 - bgFlip];
+  on.style.backgroundImage = `url(./assets/img/${name}.jpg)`;
+  on.classList.remove("active");
+  void on.offsetWidth;
+  on.classList.add("active");
+  off.classList.remove("active");
+}
+
+function buildCaptions(scene) {
+  capLine.innerHTML = "";
+  (scene.subs || []).forEach((ch) =>
+    ch.words.forEach((w) => {
+      const b = E("b", w.hl ? "hl" : "", w.w.replace(/\*/g, ""));
+      b.dataset.at = w.at.toFixed(2);
+      capLine.appendChild(b);
+    })
+  );
+}
 
 function buildScene(i) {
   layersRoot.innerHTML = "";
@@ -292,6 +380,47 @@ function buildScene(i) {
   layersRoot.appendChild(flashEl);
   sceneTag.textContent = SCENES[i].tag;
   beatNodes.forEach((b, k) => b.classList.toggle("on", k === i));
+  setBg(SCENES[i].bg);
+  buildCaptions(SCENES[i]);
+  fireSweep();
+}
+
+function camera(scene, local, p) {
+  let sx = 0, sy = 0, sc = 1.05, rot = 0;
+  switch (scene.camT) {
+    case "push": sc = 1.04 + p * 0.1; break;
+    case "slow-push": sc = 1.05 + p * 0.06; break;
+    case "zoomout": sc = 1.16 - p * 0.1; break;
+    case "drift-l": sx = -4 + p * 8; sc = 1.08; break;
+    case "drift-r": sx = 4 - p * 8; sc = 1.08; break;
+    case "rise": sy = 5 - p * 10; sc = 1.1; break;
+    default: sc = 1.05;
+  }
+  // handheld feel
+  sx += Math.sin(t * 1.6) * 0.6;
+  sy += Math.cos(t * 1.25) * 0.5;
+  rot += Math.sin(t * 0.8) * 0.18;
+  // impact shake on slams/flashes
+  let m = 0;
+  layerEls.forEach((l) => {
+    const lp = (local - l.cfg.t) / l.cfg.s;
+    if ((l.cfg.anim === "slam" || l.cfg.anim === "flash") && lp > 0 && lp < 0.22) m += 1 - lp / 0.22;
+  });
+  if (m > 0) {
+    sx += (Math.random() - 0.5) * 7 * m;
+    sy += (Math.random() - 0.5) * 6 * m;
+    rot += (Math.random() - 0.5) * 0.5 * m;
+  }
+  cam.style.transform = `translate3d(${sx.toFixed(2)}px,${sy.toFixed(2)}px,0) scale(${sc.toFixed(4)}) rotate(${rot.toFixed(3)}deg)`;
+}
+
+function captions(scene, local) {
+  const spans = capLine.children;
+  let active = false;
+  for (const ch of scene.subs || []) if (local >= ch.t && local <= ch.s + 0.35) active = true;
+  capsWrap.style.opacity = active ? 1 : 0;
+  for (let i = 0; i < spans.length; i++) spans[i].classList.toggle("on", local >= parseFloat(spans[i].dataset.at));
+  capBar.style.width = `${Math.min(100, (local / (scene.to - scene.at)) * 100).toFixed(1)}%`;
 }
 
 function apply(l, p) {
@@ -400,7 +529,8 @@ function render() {
       if (t > 0.02 || playing) playVo(SCENES[i]);
     }
   }
-  const local = t - SCENES[i].at;
+  const scene = SCENES[i];
+  const local = t - scene.at;
   layerEls.forEach((l) => {
     const p = (local - l.cfg.t) / l.cfg.s;
     if (p < 0 || p > 1) {
@@ -409,6 +539,8 @@ function render() {
     }
     apply(l, p);
   });
+  camera(scene, local, local / (scene.to - scene.at));
+  captions(scene, local);
 
   const totalFrames = Math.floor(t * FPS);
   const ss = String(Math.floor(t) % 60).padStart(2, "0");
@@ -468,17 +600,17 @@ function setPlaying(on) {
 
 /* ---------- UI ---------- */
 btnPlay.addEventListener("click", () => setPlaying(!playing));
-document.getElementById("btnRestart").addEventListener("click", () => {
+$("btnRestart").addEventListener("click", () => {
   seek(0);
   setPlaying(true);
 });
-const btnMute = document.getElementById("btnMute");
+const btnMute = $("btnMute");
 btnMute.addEventListener("click", () => {
   musicOn = !musicOn;
   btnMute.classList.toggle("on", musicOn);
   if (AC && master) master.gain.linearRampToValueAtTime(musicOn ? 0.13 : 0.0001, AC.currentTime + 0.5);
 });
-const btnVoice = document.getElementById("btnVoice");
+const btnVoice = $("btnVoice");
 btnVoice.addEventListener("click", () => {
   voiceOn = !voiceOn;
   btnVoice.classList.toggle("on", voiceOn);
