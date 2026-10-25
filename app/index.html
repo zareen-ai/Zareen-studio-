@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ur-PK">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>6 Mahine Ki Khamosh Tabdeeli — Silent Transformation</title>
+<meta name="description" content="Ek cinematic self-improvement presentation: 6 mahine mein apni zindagi ko chup-chaap badalne ka poora system." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Grotesk:wght@300..700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<div class="letterbox" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<main class="stage" id="stage">
+  <div class="deck" id="deck"><!-- slides injected --></div>
+</main>
+
+<!-- progress rail -->
+<aside class="rail" id="rail" aria-hidden="true"></aside>
+
+<!-- top bar -->
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">۶</span>
+    <span class="brand-text">MAHINE KI <em>KHAMOSH</em> TABDEELI</span>
+  </div>
+  <div class="topbar-right">
+    <a class="film-link" href="./video.html">60-second film ↗</a>
+    <span class="clock" id="clock">00:00</span>
+  </div>
+</header>
+
+<div class="progressbar"><i id="progressFill"></i></div>
+
+<!-- controls -->
+<nav class="controls" id="controls">
+  <button data-act="prev" title="Peeche (←)">
+    <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button data-act="play" id="btnPlay" title="Auto-play / Cinematic (P)">
+    <svg viewBox="0 0 24 24" class="ic-play"><path d="M7 4l13 8-13 8z"/></svg>
+    <svg viewBox="0 0 24 24" class="ic-pause"><path d="M7 4h4v16H7zM13 4h4v16h-4z"/></svg>
+  </button>
+  <button data-act="next" title="Aage (→ / Space)">
+    <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <span class="sep"></span>
+  <button data-act="voice" id="btnVoice" class="toggle" title="Voiceover (V)">
+    <svg viewBox="0 0 24 24"><path d="M4 9h3l5-4v14l-5-4H4zM16 8a5 5 0 010 8"/></svg>
+  </button>
+  <button data-act="music" id="btnMusic" class="toggle" title="Ambient music (M)">
+    <svg viewBox="0 0 24 24"><path d="M9 18V6l10-2v12"/><circle cx="7" cy="18" r="2.4"/><circle cx="17" cy="16" r="2.4"/></svg>
+  </button>
+  <button data-act="full" title="Fullscreen (F)">
+    <svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+  </button>
+  <span class="counter" id="counter">01 / 42</span>
+</nav>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>

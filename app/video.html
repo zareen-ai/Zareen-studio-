@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ur-PK">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>60 Second — 6 Mahine Ki Khamosh Tabdeeli</title>
+<meta name="description" content="60-second vertical cinematic video: 6 mahine ki khamosh tabdeeli. Frame-by-frame timed scenes with Urdu narration." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./video.css" />
+</head>
+<body>
+
+<div class="room">
+  <div class="room-glow" aria-hidden="true"></div>
+
+  <!-- vertical 9:16 stage -->
+  <div class="frame" id="frame">
+    <div class="screen" id="screen">
+      <div class="layers" id="layers"></div>
+      <div class="scr-grain" aria-hidden="true"></div>
+      <div class="scr-vig" aria-hidden="true"></div>
+      <div class="scr-scan" aria-hidden="true"></div>
+      <div class="scr-safe" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+      <!-- HUD -->
+      <div class="hud">
+        <div class="hud-l">
+          <span class="rec"><i></i>REC</span>
+          <span class="tc" id="tc">00:00:00</span>
+        </div>
+        <div class="hud-r">
+          <span id="sceneTag">SC 01</span>
+          <span class="fps">9:16 · 24fps</span>
+        </div>
+      </div>
+
+      <!-- beat ruler -->
+      <div class="ruler" id="ruler"></div>
+    </div>
+  </div>
+
+  <!-- side panel: second-by-second script -->
+  <aside class="panel">
+    <div class="panel-top">
+      <div>
+        <div class="p-kick">60 SECOND FILM</div>
+        <h1 class="p-title">6 Mahine Ki<br><span>Khamosh Tabdeeli</span></h1>
+      </div>
+      <a class="deck-link" href="./index.html">Poora deck →</a>
+    </div>
+    <div class="p-sub">Second-by-second script · frame-accurate · vertical (Reels / Shorts / TikTok)</div>
+    <div class="beats" id="beats"></div>
+    <div class="p-note">Screen record karo (ya OBS) — video 9:16 mein export-ready chalti hai. Voiceover + ambient score andar hi hai.</div>
+  </aside>
+
+  <!-- transport -->
+  <div class="transport">
+    <button id="btnRestart" title="Restart (R)"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 108-8"/><path d="M4 4v5h5"/></svg></button>
+    <button id="btnPlay" class="big" title="Play / Pause (Space)"><svg viewBox="0 0 24 24" class="ic-play"><path d="M7 4l13 8-13 8z"/></svg><svg viewBox="0 0 24 24" class="ic-pause"><path d="M7 4h4v16H7zM13 4h4v16h-4z"/></svg></button>
+    <button id="btnMute" class="on" title="Music (M)"><svg viewBox="0 0 24 24"><path d="M9 18V6l10-2v12"/><circle cx="7" cy="18" r="2.4"/><circle cx="17" cy="16" r="2.4"/></svg></button>
+    <button id="btnVoice" class="on" title="Narration (V)"><svg viewBox="0 0 24 24"><path d="M4 9h3l5-4v14l-5-4H4zM16 8a5 5 0 010 8"/></svg></button>
+    <div class="scrub" id="scrub"><i id="scrubFill"></i><b id="scrubHead"></b></div>
+    <div class="t-readout" id="readout">0.00s / 60.00s</div>
+  </div>
+</div>
+
+<script type="module" src="./video.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ur-PK">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Khamosh Tabdeeli — Silent Transformation Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=Space+Grotesk:wght@300..700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#060f0d;--paper:#f2e9d8;--gold:#d9a94a;--sage:#7fae94;--line:rgba(242,233,216,.13)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;background:radial-gradient(70vw 70vw at 20% 10%,#0d2019,#04090a 70%);color:var(--paper);
+font-family:"Space Grotesk",system-ui,sans-serif;display:grid;place-items:center;padding:6vh 6vw;overflow-x:hidden}
+.wrap{max-width:1060px;width:100%;display:flex;flex-direction:column;gap:34px}
+.kick{font-size:11px;letter-spacing:.4em;color:var(--gold);text-transform:uppercase;font-weight:700}
+h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(34px,6.4vw,74px);line-height:.98;letter-spacing:-.03em}
+h1 span{color:var(--gold)}
+.sub{font-family:"Fraunces",Georgia,serif;font-style:italic;font-size:clamp(15px,1.9vw,23px);color:rgba(242,233,216,.66);line-height:1.45;max-width:52ch}
+.urd{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;line-height:2.2;color:rgba(242,233,216,.5);font-size:clamp(13px,1.5vw,17px)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+a.card{display:flex;flex-direction:column;gap:10px;padding:26px;border:1px solid var(--line);border-radius:16px;
+background:linear-gradient(155deg,rgba(242,233,216,.05),rgba(242,233,216,.012));text-decoration:none;color:inherit;
+transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .4s}
+a.card:hover{transform:translateY(-5px);border-color:rgba(217,169,74,.45)}
+.tag{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.ct{font-family:"Fraunces",Georgia,serif;font-size:clamp(20px,2.4vw,29px);font-weight:600;letter-spacing:-.02em}
+.cd{font-size:13.5px;line-height:1.6;color:rgba(242,233,216,.6)}
+.go{margin-top:6px;font-size:12px;letter-spacing:.14em;color:var(--sage)}
+.foot{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:rgba(242,233,216,.32);border-top:1px solid var(--line);padding-top:16px}
+.keys{font-size:12px;line-height:1.7;color:rgba(242,233,216,.5)}
+kbd{border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-family:"Space Grotesk",monospace;font-size:11px;color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kick">Silent Transformation Studio</div>
+  <h1>6 Mahine Ki<br><span>Khamosh</span> Tabdeeli</h1>
+  <p class="sub">Ek 60-second vertical film, aur ek poora cinematic deck — dono Urdu mein, dono narration ke saath.</p>
+  <p class="urd">چُھپ جاؤ۔ کام بولے گا۔</p>
+
+  <div class="cards">
+    <a class="card" href="./video.html">
+      <div class="tag">Naya · 9:16 · 60 second</div>
+      <div class="ct">60-Second Film</div>
+      <div class="cd">Frame-by-frame timed scenes, timecode HUD, second-by-second script side panel. Reels / Shorts / TikTok ke liye.</div>
+      <div class="go">Play karo →</div>
+    </a>
+    <a class="card" href="./index.html">
+      <div class="tag">Poora program · 38 slides</div>
+      <div class="ct">Cinematic Deck</div>
+      <div class="cd">7 sutoon + 2 hifazati deewarein. Auto-play cinematic mode, Urdu voiceover, ambient score, keyboard + swipe control.</div>
+      <div class="go">Deck kholo →</div>
+    </a>
+  </div>
+
+  <div class="keys">
+    <b style="color:var(--paper)">Controls:</b>
+    <kbd>Space</kbd> play/pause · <kbd>R</kbd> restart · <kbd>←</kbd><kbd>→</kbd> ±1 second ·
+    <kbd>V</kbd> narration · <kbd>M</kbd> music · <kbd>F</kbd> fullscreen · <kbd>P</kbd> cinematic mode
+  </div>
+
+  <div class="foot">Zareen Studio · Pine ink / Parchment / Brass theme</div>
+</div>
+</body>
+</html>
