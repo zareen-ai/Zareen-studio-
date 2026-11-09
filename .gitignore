@@ -1,0 +1,18 @@
+# Generated media — bahut bade hote hain, repo me nahi
+assets/clips/
+assets/audio/
+assets/final/
+assets/character-sheets/*.png
+assets/character-sheets/*.jpg
+assets/character-sheets/*.jpeg
+assets/character-sheets/*.webp
+assets/sfx/
+assets/music/
+
+# Keep the folder structure
+!assets/**/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp
